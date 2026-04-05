@@ -3,6 +3,12 @@ Bank statement PDF parser.
 
 Detects which SA bank the statement is from and runs the appropriate parser.
 Falls back to a generic parser if the bank cannot be identified.
+
+Key improvements over naive regex:
+- extract_amount_near_label() handles label and value on separate lines
+- normalise_amount() handles all SA amount formats (R 1 234.56 / R1,234.56 / 1234.56)
+- extract_prime_linkage() captures "Prime + 0.25%" alongside the effective rate
+- parse_confidence score reflects how many key fields were found
 """
 from __future__ import annotations
 
@@ -12,10 +18,15 @@ from pathlib import Path
 import fitz  # pymupdf
 
 from bondly.models.property import PaymentRecord, StatementData
-from bondly.sources.statements.utils import clean_amount as _clean_amount, extract_amount as _extract_amount, extract_rate as _extract_rate
+from bondly.sources.statements.utils import (
+    clean_amount,
+    extract_amount_near_label,
+    extract_prime_linkage,
+    extract_rate,
+    normalise_amount,
+)
 from bondly.sources.statements.banks import absa, fnb, nedbank, standardbank, capitec
 
-# Map of bank name keywords → parser module
 _BANK_PARSERS = {
     "absa": absa,
     "firstrand": fnb,
@@ -27,6 +38,15 @@ _BANK_PARSERS = {
     "capitec": capitec,
 }
 
+_KEY_FIELDS = [
+    "account_number",
+    "outstanding_balance",
+    "current_interest_rate",
+    "monthly_repayment",
+    "arrears_amount",
+    "next_payment_date",
+]
+
 
 def _detect_bank(text: str) -> str | None:
     lower = text.lower()
@@ -36,34 +56,19 @@ def _detect_bank(text: str) -> str | None:
     return None
 
 
-def _clean_amount(s: str) -> str:
-    """Normalise ZAR amount string — ensure it starts with R."""
-    s = s.strip()
-    if s and not s.startswith("R"):
-        s = "R " + s
-    return s
-
-
-def _extract_amount(pattern: str, text: str) -> str | None:
-    m = re.search(pattern, text, re.IGNORECASE)
-    if m:
-        return _clean_amount(m.group(1).strip())
-    return None
-
-
-def _extract_rate(text: str, *patterns: str) -> str | None:
-    for pat in patterns:
-        m = re.search(pat, text, re.IGNORECASE)
-        if m:
-            return m.group(1).strip() + "%" if not m.group(1).strip().endswith("%") else m.group(1).strip()
-    return None
+def _score_confidence(data: StatementData) -> StatementData:
+    """
+    Calculate what fraction of key fields were successfully extracted
+    and list which ones are missing.
+    """
+    missing = [f for f in _KEY_FIELDS if not getattr(data, f)]
+    found = len(_KEY_FIELDS) - len(missing)
+    data.parse_confidence = round(found / len(_KEY_FIELDS), 2)
+    data.missing_fields = missing
+    return data
 
 
 def parse_statement(pdf_path: str | Path) -> StatementData:
-    """
-    Parse a SA bank home loan statement PDF.
-    Returns a StatementData object with all extractable fields populated.
-    """
     path = Path(pdf_path)
     if not path.exists():
         raise FileNotFoundError(f"Statement file not found: {path}")
@@ -77,31 +82,27 @@ def parse_statement(pdf_path: str | Path) -> StatementData:
     full_text = "\n".join(pages_text)
     first_page = pages_text[0] if pages_text else ""
 
-    # Detect bank
     bank_key = _detect_bank(full_text)
     parser_mod = _BANK_PARSERS.get(bank_key) if bank_key else None
 
-    if parser_mod:
-        return parser_mod.parse(full_text, first_page)
-
-    # Generic fallback
-    return _generic_parse(full_text, first_page)
+    data = parser_mod.parse(full_text, first_page) if parser_mod else _generic_parse(full_text, first_page)
+    return _score_confidence(data)
 
 
 def _generic_parse(full_text: str, first_page: str) -> StatementData:
     """
-    Generic parser using common South African home loan statement patterns.
-    Works across most banks with reasonable accuracy.
+    Generic parser using near-label extraction and common SA patterns.
+    Handles both same-line and next-line label/value layouts.
     """
     data = StatementData(bank="Unknown (generic parser)")
 
     # Account number
     m = re.search(r"(?:account\s+(?:number|no\.?|#))[:\s]+([0-9\s\-]{8,20})", full_text, re.I)
     if m:
-        data.account_number = m.group(1).strip().replace(" ", "")
+        data.account_number = re.sub(r"[\s\-]", "", m.group(1))
 
     # Account holder
-    m = re.search(r"(?:account\s+holder|client\s+name|dear\s+mr\.?|dear\s+ms\.?)[:\s]+([A-Z][A-Z\s]+)", full_text, re.I)
+    m = re.search(r"(?:account\s+holder|client\s+name|dear\s+(?:mr|ms|mrs)\.?\s+)([A-Z][A-Z\s]{2,40})", full_text, re.I)
     if m:
         data.account_holder = m.group(1).strip().title()
 
@@ -110,32 +111,32 @@ def _generic_parse(full_text: str, first_page: str) -> StatementData:
     if m:
         data.statement_date = m.group(1).strip()
 
-    # Outstanding balance — many label variants
-    data.outstanding_balance = _extract_amount(
-        r"(?:outstanding\s+balance|current\s+balance|balance\s+outstanding|loan\s+balance|amount\s+outstanding)"
-        r"[:\s]+R?\s*([\d\s,]+\.?\d{0,2})",
-        full_text,
+    # Outstanding balance — try near-label first, then inline
+    data.outstanding_balance = (
+        extract_amount_near_label(
+            r"outstanding\s+balance|balance\s+outstanding|current\s+balance|loan\s+balance|amount\s+outstanding",
+            full_text,
+        )
     )
 
     # Original loan amount
-    data.original_loan_amount = _extract_amount(
-        r"(?:original\s+(?:loan|bond)\s+amount|loan\s+amount|bond\s+amount|principal\s+amount)"
-        r"[:\s]+R?\s*([\d\s,]+\.?\d{0,2})",
+    data.original_loan_amount = extract_amount_near_label(
+        r"original\s+(?:loan|bond)\s+amount|loan\s+amount|bond\s+amount|principal\s+amount",
         full_text,
     )
 
-    # Interest rate
-    data.current_interest_rate = _extract_rate(
+    # Interest rate + prime linkage
+    prime_link, effective_rate = extract_prime_linkage(full_text)
+    data.prime_linkage = prime_link
+    data.current_interest_rate = effective_rate or extract_rate(
         full_text,
         r"(?:interest\s+rate|current\s+rate|applicable\s+rate)[:\s]+([\d.]+\s*%)",
-        r"(?:prime\s*[+\-]\s*[\d.]+%?)[^\n]*?([\d.]+%)",
         r"rate[:\s]+([\d.]+)\s*%\s*(?:per\s+annum|p\.?a\.?)",
     )
 
     # Monthly repayment
-    data.monthly_repayment = _extract_amount(
-        r"(?:monthly\s+(?:instalment|repayment|payment)|instalment\s+amount|repayment\s+amount)"
-        r"[:\s]+R?\s*([\d\s,]+\.?\d{0,2})",
+    data.monthly_repayment = extract_amount_near_label(
+        r"monthly\s+(?:instalment|repayment|payment)|instalment\s+amount|repayment\s+amount",
         full_text,
     )
 
@@ -148,18 +149,15 @@ def _generic_parse(full_text: str, first_page: str) -> StatementData:
         data.next_payment_date = m.group(1).strip()
 
     # Arrears
-    data.arrears_amount = _extract_amount(
-        r"(?:arrears|overdue\s+amount|amount\s+in\s+arrears)[:\s]+R?\s*([\d\s,]+\.?\d{0,2})",
+    data.arrears_amount = extract_amount_near_label(
+        r"arrears|overdue\s+amount|amount\s+in\s+arrears",
         full_text,
     )
 
     # Last payment
-    m = re.search(
-        r"(?:last\s+payment|previous\s+payment)[:\s]+.*?R?\s*([\d\s,]+\.?\d{0,2})",
-        full_text, re.I,
-    )
+    m = re.search(r"(?:last|previous)\s+payment[^\n]{0,60}R?\s*([\d\s,]+\.\d{2})", full_text, re.I)
     if m:
-        data.last_payment_amount = _clean_amount(m.group(1).strip())
+        data.last_payment_amount = normalise_amount(m.group(1))
 
     # Remaining term
     m = re.search(r"(?:remaining\s+term|term\s+remaining)[:\s]+(\d+)\s*(?:months?|mths?)", full_text, re.I)
@@ -167,22 +165,26 @@ def _generic_parse(full_text: str, first_page: str) -> StatementData:
         data.remaining_term_months = int(m.group(1))
 
     # Service fee
-    data.service_fee = _extract_amount(
-        r"(?:service\s+fee|monthly\s+fee|admin\s+fee)[:\s]+R?\s*([\d\s,]+\.?\d{0,2})",
+    data.service_fee = extract_amount_near_label(
+        r"service\s+fee|monthly\s+fee|admin(?:istration)?\s+fee",
         full_text,
     )
 
-    # Payment history rows: date + description + amount
-    payment_rows: list[PaymentRecord] = []
+    # Payment history
+    rows: list[PaymentRecord] = []
     for m in re.finditer(
-        r"(\d{1,2}[\s/\-]\w{3,9}[\s/\-]\d{4})\s+([A-Za-z][\w\s]{3,50}?)\s+R?\s*([\d\s,]+\.\d{2})",
+        r"(\d{1,2}[\s/\-]\w{3,9}[\s/\-]\d{4}|\d{4}-\d{2}-\d{2})"
+        r"\s+([\w][\w\s/-]{3,50}?)\s{2,}"
+        r"(-?R?\s*[\d\s,]+\.\d{2})"
+        r"(?:\s+(-?R?\s*[\d\s,]+\.\d{2}))?",
         full_text,
     ):
-        payment_rows.append(PaymentRecord(
+        rows.append(PaymentRecord(
             date=m.group(1).strip(),
             description=m.group(2).strip(),
-            amount=_clean_amount(m.group(3).strip()),
+            amount=normalise_amount(m.group(3)),
+            balance_after=normalise_amount(m.group(4)) if m.group(4) else None,
         ))
-    data.payment_history = payment_rows[:24]  # cap at 24 months
+    data.payment_history = rows[:24]
 
     return data

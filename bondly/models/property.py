@@ -78,6 +78,7 @@ class StatementData(BaseModel):
     outstanding_balance: Optional[str] = None
     original_loan_amount: Optional[str] = None
     current_interest_rate: Optional[str] = None
+    prime_linkage: Optional[str] = None          # e.g. "Prime + 0.25%"
     monthly_repayment: Optional[str] = None
     next_payment_date: Optional[str] = None
     remaining_term_months: Optional[int] = None
@@ -95,10 +96,20 @@ class StatementData(BaseModel):
     service_fee: Optional[str] = None
     other_fees: Optional[str] = None
 
+    # Confidence: how many key fields were successfully extracted (0.0–1.0)
+    parse_confidence: Optional[float] = None
+    missing_fields: list[str] = []
+
     source: str = "Bank Statement"
 
 
 # ── Combined report ───────────────────────────────────────────────────────────
+
+class ValidationFlag(BaseModel):
+    field: str
+    severity: str          # "warning" | "error"
+    message: str
+
 
 class PropertyReport(BaseModel):
     """
@@ -107,7 +118,8 @@ class PropertyReport(BaseModel):
     deeds: Optional[DeedsData] = None
     statement: Optional[StatementData] = None
     generated_at: Optional[str] = None
-    completeness: dict = {}                      # which sections were successfully populated
+    completeness: dict = {}
+    validation_flags: list[ValidationFlag] = []
 
     def summary(self) -> dict:
         active_bonds = [b for b in (self.deeds.bonds if self.deeds else []) if b.status == "Active"]
@@ -120,7 +132,10 @@ class PropertyReport(BaseModel):
             "bond_holder": active_bonds[0].bond_holder_bank if active_bonds else None,
             "registered_amount": active_bonds[0].registered_amount if active_bonds else None,
             "outstanding_balance": self.statement.outstanding_balance if self.statement else None,
+            "prime_linkage": self.statement.prime_linkage if self.statement else None,
             "current_interest_rate": self.statement.current_interest_rate if self.statement else None,
             "monthly_repayment": self.statement.monthly_repayment if self.statement else None,
             "arrears": self.statement.arrears_amount if self.statement else None,
+            "parse_confidence": self.statement.parse_confidence if self.statement else None,
+            "validation_flags": [f.model_dump() for f in self.validation_flags],
         }

@@ -10,18 +10,22 @@ Absa statements use labels like:
 """
 import re
 from bondly.models.property import PaymentRecord, StatementData
-from bondly.sources.statements.utils import clean_amount as _clean_amount, extract_amount as _extract_amount, extract_rate as _extract_rate
+from bondly.sources.statements.utils import (
+    normalise_amount,
+    extract_amount_near_label,
+    extract_prime_linkage,
+    extract_rate,
+)
 
 
 def parse(full_text: str, first_page: str) -> StatementData:
     data = StatementData(bank="Absa Bank")
 
-    # Account number — Absa home loan accounts start with 4
     m = re.search(r"(?:home\s+loan\s+account|account\s+number)[:\s]+(\d[\d\s]{7,15})", full_text, re.I)
     if m:
-        data.account_number = m.group(1).replace(" ", "")
+        data.account_number = re.sub(r"\s", "", m.group(1))
 
-    m = re.search(r"(?:dear\s+(?:mr\.?|ms\.?|mrs\.?)\s+|client[:\s]+)([A-Z][A-Z\s]{2,40})", full_text, re.I)
+    m = re.search(r"(?:dear\s+(?:mr|ms|mrs)\.?\s+|client[:\s]+)([A-Z][A-Z\s]{2,40})", full_text, re.I)
     if m:
         data.account_holder = m.group(1).strip().title()
 
@@ -29,23 +33,26 @@ def parse(full_text: str, first_page: str) -> StatementData:
     if m:
         data.statement_date = m.group(1)
 
-    data.outstanding_balance = _extract_amount(
-        r"Outstanding\s+Balance[:\s]+R?\s*([\d\s,]+\.?\d{0,2})", full_text
+    m = re.search(r"Statement\s+Period[:\s]+(.+?)(?:\n|$)", full_text, re.I)
+    if m:
+        data.statement_period = m.group(1).strip()
+
+    data.outstanding_balance = extract_amount_near_label(
+        r"Outstanding\s+Balance", full_text
     )
-    data.original_loan_amount = _extract_amount(
-        r"(?:Original|Initial)\s+Loan\s+Amount[:\s]+R?\s*([\d\s,]+\.?\d{0,2})", full_text
+    data.original_loan_amount = extract_amount_near_label(
+        r"(?:Original|Initial)\s+(?:Loan|Bond)\s+Amount", full_text
     )
-    data.current_interest_rate = _extract_rate(
+
+    prime_link, effective_rate = extract_prime_linkage(full_text)
+    data.prime_linkage = prime_link
+    data.current_interest_rate = effective_rate or extract_rate(
         full_text,
         r"(?:Current\s+Interest\s+Rate|Interest\s+Rate)[:\s]+([\d.]+\s*%)",
-        r"Prime\s*(?:rate)?\s*[+\-]\s*[\d.]+%?\s*=\s*([\d.]+)%",
     )
-    data.monthly_repayment = _extract_amount(
-        r"Monthly\s+Instalment[:\s]+R?\s*([\d\s,]+\.?\d{0,2})", full_text
-    )
-    data.arrears_amount = _extract_amount(
-        r"Arrears[:\s]+R?\s*([\d\s,]+\.?\d{0,2})", full_text
-    )
+
+    data.monthly_repayment = extract_amount_near_label(r"Monthly\s+Instalment", full_text)
+    data.arrears_amount = extract_amount_near_label(r"Arrears", full_text)
 
     m = re.search(r"Next\s+(?:Payment|Debit)\s+Date[:\s]+(\d{1,2}\s+\w+\s+\d{4})", full_text, re.I)
     if m:
@@ -55,20 +62,19 @@ def parse(full_text: str, first_page: str) -> StatementData:
     if m:
         data.remaining_term_months = int(m.group(1))
 
-    data.service_fee = _extract_amount(
-        r"(?:Service|Administration|Admin)\s+Fee[:\s]+R?\s*([\d\s,]+\.?\d{0,2})", full_text
-    )
+    data.service_fee = extract_amount_near_label(r"(?:Service|Administration|Admin)\s+Fee", full_text)
 
     rows = []
     for m in re.finditer(
-        r"(\d{2}\s+\w{3}\s+\d{4})\s+([\w\s/-]{5,50}?)\s{2,}([\d\s,]+\.\d{2})\s+([\d\s,]+\.\d{2})?",
+        r"(\d{2}\s+\w{3}\s+\d{4})\s+([\w\s/-]{5,50}?)\s{2,}"
+        r"(-?R?\s*[\d\s,]+\.\d{2})(?:\s+(-?R?\s*[\d\s,]+\.\d{2}))?",
         full_text,
     ):
         rows.append(PaymentRecord(
             date=m.group(1),
             description=m.group(2).strip(),
-            amount=_clean_amount(m.group(3)),
-            balance_after=_clean_amount(m.group(4)) if m.group(4) else None,
+            amount=normalise_amount(m.group(3)),
+            balance_after=normalise_amount(m.group(4)) if m.group(4) else None,
         ))
     data.payment_history = rows[:24]
 
