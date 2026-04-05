@@ -1,0 +1,5039 @@
+{
+  "scraped_date": "2026-04-05",
+  "banks": [
+    {
+      "bank": "Nedbank",
+      "rates": [
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.10%",
+          "details": "Period of Investment: 1 Month | Nominal Rate p/a*: - | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 6.10%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "5.95%",
+          "details": "Period of Investment: 3 Months | Nominal Rate p/a*: 5.95% | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 5.97%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.40%",
+          "details": "Period of Investment: 6 Months | Nominal Rate p/a*: 6.40% | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 6.48%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.35%",
+          "details": "Period of Investment: 12 Months | Nominal Rate p/a*: 6.35% | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 6.53%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.60%",
+          "details": "Period of Investment: 18 Months | Nominal Rate p/a*: 6.60% | Equivalent Annual Effective Rate (AER)**: 6.80% | Rate at Maturity***: 6.91%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.65%",
+          "details": "Period of Investment: 24 Months | Nominal Rate p/a*: 6.65% | Equivalent Annual Effective Rate (AER)**: 6.85% | Rate at Maturity***: 7.09%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.70%",
+          "details": "Period of Investment: 36 Months | Nominal Rate p/a*: 6.70% | Equivalent Annual Effective Rate (AER)**: 6.90% | Rate at Maturity***: 7.39%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.30%",
+          "details": "Period of Investment: 1 Month | Nominal Rate p/a*: - | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 6.30%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.80%",
+          "details": "Period of Investment: 18 Months | Nominal Rate p/a*: 6.80% | Equivalent Annual Effective Rate (AER)**: 7.01% | Rate at Maturity***: 7.13%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.85%",
+          "details": "Period of Investment: 24 Months | Nominal Rate p/a*: 6.85% | Equivalent Annual Effective Rate (AER)**: 7.06% | Rate at Maturity***: 7.31%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.90%",
+          "details": "Period of Investment: 36 Months | Nominal Rate p/a*: 6.90% | Equivalent Annual Effective Rate (AER)**: 7.12% | Rate at Maturity***: 7.64%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "7.20%",
+          "details": "Period of Investment: 60 Months | Nominal Rate p/a*: 7.20% | Equivalent Annual Effective Rate (AER)**: 7.44% | Rate at Maturity***: 8.63%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.45%",
+          "details": "Period of Investment: 3 Months | Nominal Rate p/a*: 6.45% | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 6.48%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.95%",
+          "details": "Period of Investment: 24 Months | Nominal Rate p/a*: 6.95% | Equivalent Annual Effective Rate (AER)**: 7.17% | Rate at Maturity***: 7.43%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "7.00%",
+          "details": "Period of Investment: 36 Months | Nominal Rate p/a*: 7.00% | Equivalent Annual Effective Rate (AER)**: 7.22% | Rate at Maturity***: 7.76%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "7.30%",
+          "details": "Period of Investment: 60 Months | Nominal Rate p/a*: 7.30% | Equivalent Annual Effective Rate (AER)**: 7.54% | Rate at Maturity***: 8.77%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "6.55%",
+          "details": "Period of Investment: 3 Months | Nominal Rate p/a*: 6.55% | Equivalent Annual Effective Rate (AER)**: - | Rate at Maturity***: 6.58%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "7.05%",
+          "details": "Period of Investment: 36 Months | Nominal Rate p/a*: 7.05% | Equivalent Annual Effective Rate (AER)**: 7.28% | Rate at Maturity***: 7.82%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Account interest rates \u2013 Balance Range",
+          "rate": "7.45%",
+          "details": "Period of Investment: 60 Months | Nominal Rate p/a*: 7.45% | Equivalent Annual Effective Rate (AER)**: 7.70% | Rate at Maturity***: 8.99%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 < R2,500",
+          "rate": "5.00%",
+          "details": "Nominal rate p/a*: 5.00% | Special promotion - nominal rate p/a**: 5.55%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 R2,500 - R24,999",
+          "rate": "5.50%",
+          "details": "Nominal rate p/a*: 5.50% | Special promotion - nominal rate p/a**: 6.05%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 R25,000 - R49,999",
+          "rate": "5.75%",
+          "details": "Nominal rate p/a*: 5.75% | Special promotion - nominal rate p/a**: 6.20%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 R50,000 - R99,999",
+          "rate": "6.20%",
+          "details": "Nominal rate p/a*: 6.20% | Special promotion - nominal rate p/a**: 6.30%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 R100,000 - R249,999",
+          "rate": "6.30%",
+          "details": "Nominal rate p/a*: 6.30% | Special promotion - nominal rate p/a**: 7.00%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 R250,000 - R999,999",
+          "rate": "6.40%",
+          "details": "Nominal rate p/a*: 6.40% | Special promotion - nominal rate p/a**: 7.25%"
+        },
+        {
+          "type": "JustInvest",
+          "product": "Account interest rates \u2013 R1,000,000+",
+          "rate": "6.75%",
+          "details": "Nominal rate p/a*: 6.75% | Special promotion - nominal rate p/a**: 7.35%"
+        }
+      ],
+      "source": [
+        "https://personal.nedbank.co.za/home/investment-interest-rates.html",
+        "https://personal.nedbank.co.za/save-and-invest/accounts/end-of-term/fixed-deposit/interest-rates-and-fees.html",
+        "https://personal.nedbank.co.za/save-and-invest/accounts/in-24hrs/justinvest/interest-rates-and-fees.html"
+      ],
+      "blocked": false
+    },
+    {
+      "bank": "Absa Bank",
+      "rates": [
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 0.01",
+          "rate": "0.00%",
+          "details": "To: 999.99 | Rate: 0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000.00",
+          "rate": "3.75%",
+          "details": "To: 14 999.99 | Rate: 3.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 15 000.00",
+          "rate": "5.45%",
+          "details": "To: 74 999.99 | Rate: 5.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 75 000.00",
+          "rate": "5.55%",
+          "details": "To: 999 999.99 | Rate: 5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000 000.00",
+          "rate": "5.55%",
+          "details": "To: 9 999 999.99 | Rate: 5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 10 000 000.00",
+          "rate": "5.65%",
+          "details": "To: 24 999 999.99 | Rate: 5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 25 000 000.00",
+          "rate": "5.70%",
+          "details": "To: 49 999 999.99 | Rate: 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 50 000 000.00",
+          "rate": "5.85%",
+          "details": "To: 99 999 999.99 | Rate: 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 100 000 000.00",
+          "rate": "6.00%",
+          "details": "To: 9 999 999 999 999.99 | Rate: 6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000.00",
+          "rate": "4.60%",
+          "details": "To: 14 999.99 | Rate: 4.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 15 000.00",
+          "rate": "5.90%",
+          "details": "To: 74 999.99 | Rate: 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 75 000.00",
+          "rate": "6.05%",
+          "details": "To: 999 999.99 | Rate: 6.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000 000.00",
+          "rate": "6.10%",
+          "details": "To: 9 999 999.99 | Rate: 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 10 000 000.00",
+          "rate": "6.20%",
+          "details": "To: 24 999 999.99 | Rate: 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 25 000 000.00",
+          "rate": "6.25%",
+          "details": "To: 49 999 999.99 | Rate: 6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 50 000 000.00",
+          "rate": "6.40%",
+          "details": "To: 99 999 999.99 | Rate: 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 100 000 000.00",
+          "rate": "6.55%",
+          "details": "To: 9 999 999 999 999.99 | Rate: 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 0.01",
+          "rate": "5.25%",
+          "details": "To: 9 999.99 | Rate: 5.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 10 000.00",
+          "rate": "5.35%",
+          "details": "To: 14 999.99 | Rate: 5.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 25 000.00",
+          "rate": "6.20%",
+          "details": "To: 74 999.99 | Rate: 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 75 000.00",
+          "rate": "6.30%",
+          "details": "To: 99 999.99 | Rate: 6.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 100 000.00",
+          "rate": "6.35%",
+          "details": "To: 249 999.99 | Rate: 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 250 000.00",
+          "rate": "6.50%",
+          "details": "To: 999 999 .99 | Rate: 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000 000.00",
+          "rate": "6.55%",
+          "details": "To: 9 999 999 .99 | Rate: 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 10 000 000.00",
+          "rate": "6.95%",
+          "details": "To: 24 999 999.99 | Rate: 6.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 25 000 000.00",
+          "rate": "7.10%",
+          "details": "To: 9 999 999 999 999.99 | Rate: 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 0.01",
+          "rate": "3.75%",
+          "details": "To: 99.99 | Rate: 3.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 100.00",
+          "rate": "3.75%",
+          "details": "To: 999.99 | Rate: 3.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000.00",
+          "rate": "5.75%",
+          "details": "To: 24 999.99 | Rate: 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 25 000.00",
+          "rate": "6.43%",
+          "details": "To: 49 999.99 | Rate: 6.43%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 50 000.00",
+          "rate": "6.53%",
+          "details": "To: 249 999.99 | Rate: 6.53%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 250 000.00",
+          "rate": "6.76%",
+          "details": "To: 999 999.99 | Rate: 6.76%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000 000.00",
+          "rate": "6.95%",
+          "details": "To: 9 999 999.99 | Rate: 6.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 10 000 000.00",
+          "rate": "7.15%",
+          "details": "To: 24 999 999.99 | Rate: 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 25 000 000.00",
+          "rate": "7.20%",
+          "details": "To: 49 999 999.99 | Rate: 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 50 000 000.00 +",
+          "rate": "7.20%",
+          "details": "To:  | Rate: 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 0.00",
+          "rate": "0.00%",
+          "details": "To: 999.99 | Rate: 0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1000.00",
+          "rate": "5.70%",
+          "details": "To: 24 999.99 | Rate: 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 50 000.00",
+          "rate": "6.50%",
+          "details": "To: 999 999.99 | Rate: 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 1 000 000.00",
+          "rate": "6.75%",
+          "details": "To: 4 999 999.99 | Rate: 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Business Saving and Investing Rates and Fees \u2013 5 000 000.00",
+          "rate": "6.85%",
+          "details": "To: 9 999 999.99 | Rate: 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "savings-booster \u2013 Ultimate Banking Savings Booster",
+          "rate": "5.60%",
+          "details": "Last reviewed on 21 November 2025: 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "savings-booster \u2013 Islamic Savings Booster",
+          "rate": "5.60%",
+          "details": "Last reviewed on 21 November 2025: 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "trusave \u2013 R0.01 - R49.99",
+          "rate": "0.00%",
+          "details": "0.00% | 0.00% | 0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "trusave \u2013 R50 +",
+          "rate": "3.70%",
+          "details": "3.70% | 1.90% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "megau \u2013 R0.01 - R49.99",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "megau \u2013 R50 +",
+          "rate": "3.70%",
+          "details": "3.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R0.01 - R14,999.99",
+          "rate": "0.10%",
+          "details": "0.10% | 0.35% | 0.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R15,000 - R24,999.99",
+          "rate": "5.30%",
+          "details": "5.30% | 0.35% | 5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R25,000 - R74,999.99",
+          "rate": "6.05%",
+          "details": "6.05% | 0.35% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R75,000 - R99,999.99",
+          "rate": "6.15%",
+          "details": "6.15% | 0.35% | 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R100,000 - R249,999.99",
+          "rate": "6.25%",
+          "details": "6.25% | 0.35% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R250,000 - R999,999.99",
+          "rate": "6.40%",
+          "details": "6.40% | 0.35% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R1,000,000 - R9,999,999.99",
+          "rate": "6.45%",
+          "details": "6.45% | 0.35% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R10,000,000 - R24,999,999.99",
+          "rate": "6.65%",
+          "details": "6.65% | 0.35% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "depositor-plus \u2013 R25,000,000 +",
+          "rate": "6.35%",
+          "details": "6.35% | 0.35% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "cash-invest-tracker \u2013 R0.01 - 99,999.99",
+          "rate": "6.55%",
+          "details": "6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "cash-invest-tracker \u2013 R100 000.00 - R12,500,000.00",
+          "rate": "7.05%",
+          "details": "7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "cash-invest-tracker \u2013 R12,500,000.01 +",
+          "rate": "7.25%",
+          "details": "7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R0.01 - R9,999.99",
+          "rate": "5.25%",
+          "details": "5.25% | 0.25% | 5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R10,000 - R14,999.99",
+          "rate": "5.35%",
+          "details": "5.35% | 0.25% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R15,000 - R24,999.99",
+          "rate": "5.45%",
+          "details": "5.45% | 0.25% | 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R25,000 - R74,999.99",
+          "rate": "6.20%",
+          "details": "6.20% | 0.25% | 6.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R75,000 - R99,999.99",
+          "rate": "6.30%",
+          "details": "6.30% | 0.25% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R100,000 - R249,999.99",
+          "rate": "6.35%",
+          "details": "6.35% | 0.25% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R250,000 - R999,999.99",
+          "rate": "6.50%",
+          "details": "6.50% | 0.25% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R1,000,000 - R9,999,999.99",
+          "rate": "6.55%",
+          "details": "6.55% | 0.25% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R10,000,000 - R24,999,999.99",
+          "rate": "6.95%",
+          "details": "6.95% | 0.25% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-depositor-plus \u2013 R25,000,000 +",
+          "rate": "7.10%",
+          "details": "7.10% | 0.25% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R0.01 - R99.99",
+          "rate": "3.75%",
+          "details": "3.75% | 0.25% | 4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R100 - R999.99",
+          "rate": "3.75%",
+          "details": "3.75% | 0.25% | 4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R1,000 - R24,999.99",
+          "rate": "5.75%",
+          "details": "5.75% | 0.25% | 6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R25,000 - R49,999.99",
+          "rate": "6.43%",
+          "details": "6.43% | 0.25% | 6.68%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R50,000 - R249,999.99",
+          "rate": "6.53%",
+          "details": "6.53% | 0.25% | 6.78%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R250,000 - R999,999.99",
+          "rate": "6.76%",
+          "details": "6.76% | 0.25% | 7.01%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R1,000,000 - R9,999,999.99",
+          "rate": "6.95%",
+          "details": "6.95% | 0.25% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R10,000,000 - R24,999,999.99",
+          "rate": "7.15%",
+          "details": "7.15% | 0.25% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R25,000,000 - R49,999,999.99",
+          "rate": "7.20%",
+          "details": "7.20% | 0.25% | 7.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-targetsave \u2013 R50,000,000 +",
+          "rate": "7.20%",
+          "details": "7.20% | 0.25% | 7.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 8 to 31 days",
+          "rate": "5.60%",
+          "details": "5.60% | 5.60% | 5.70% | 5.70% | 5.70% | 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 1",
+          "rate": "5.95%",
+          "details": "5.95% | 5.95% | 6.05% | 6.05% | 6.10% | 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 2",
+          "rate": "5.90%",
+          "details": "5.90% | 5.91% | 6.00% | 6.01% | 6.05% | 6.06%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 3",
+          "rate": "5.95%",
+          "details": "5.95% | 5.98% | 6.00% | 6.03% | 6.10% | 6.13%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 4",
+          "rate": "5.95%",
+          "details": "5.95% | 5.99% | 6.00% | 6.04% | 6.10% | 6.14%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 5",
+          "rate": "5.95%",
+          "details": "5.95% | 6.01% | 6.00% | 6.06% | 6.10% | 6.16%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 6",
+          "rate": "6.40%",
+          "details": "6.40% | 6.50% | 6.90% | 7.00% | 6.90% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 7",
+          "rate": "6.20%",
+          "details": "6.20% | 6.30% | 6.25% | 6.35% | 6.30% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 8",
+          "rate": "6.20%",
+          "details": "6.20% | 6.31% | 6.25% | 6.36% | 6.30% | 6.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 9",
+          "rate": "6.30%",
+          "details": "6.30% | 6.45% | 7.00% | 7.15% | 7.00% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 10",
+          "rate": "6.20%",
+          "details": "6.20% | 6.34% | 6.25% | 6.39% | 6.30% | 6.44%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 11",
+          "rate": "6.15%",
+          "details": "6.15% | 6.31% | 6.20% | 6.36% | 6.25% | 6.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 12",
+          "rate": "6.80%",
+          "details": "6.80% | 7.02% | 6.90% | 7.12% | 6.90% | 7.12%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 13-17",
+          "rate": "6.15%",
+          "details": "6.15% | 6.38% | 6.20% | 6.43% | 6.25% | 6.48%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 18",
+          "rate": "6.35%",
+          "details": "6.35% | 6.64% | 6.45% | 6.74% | 6.55% | 6.84%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 19-23",
+          "rate": "6.15%",
+          "details": "6.15% | 6.47% | 6.25% | 6.57% | 6.30% | 6.62%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 24",
+          "rate": "6.30%",
+          "details": "6.30% | 6.69% | 6.30% | 6.69% | 6.35% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 25-35",
+          "rate": "6.25%",
+          "details": "6.25% | 6.74% | 6.25% | 6.74% | 6.30% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 36",
+          "rate": "6.45%",
+          "details": "6.45% | 7.11% | 6.55% | 7.21% | 6.65% | 7.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 37-47",
+          "rate": "6.40%",
+          "details": "6.40% | 7.16% | 6.50% | 7.26% | 6.60% | 7.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 48-59",
+          "rate": "6.55%",
+          "details": "6.55% | 7.58% | 6.60% | 7.63% | 6.60% | 7.63%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-term-deposit \u2013 60",
+          "rate": "7.20%",
+          "details": "7.20% | 8.59% | 7.25% | 8.64% | 7.25% | 8.64%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 8 to 31 days",
+          "rate": "5.30%",
+          "details": "5.30% | 5.30% | 5.40% | 5.40% | 5.40% | 5.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 1",
+          "rate": "5.70%",
+          "details": "5.70% | 5.70% | 5.80% | 5.80% | 5.85% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 2",
+          "rate": "5.65%",
+          "details": "5.65% | 5.66% | 5.75% | 5.76% | 5.80% | 5.81%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 3",
+          "rate": "5.80%",
+          "details": "5.80% | 5.83% | 5.85% | 5.88% | 5.95% | 5.98%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 4",
+          "rate": "5.80%",
+          "details": "5.80% | 5.84% | 5.85% | 5.89% | 5.95% | 5.99%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 5",
+          "rate": "5.80%",
+          "details": "5.80% | 5.86% | 5.85% | 5.91% | 5.95% | 6.01%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 6",
+          "rate": "6.30%",
+          "details": "6.30% | 6.40% | 6.80% | 6.90% | 6.80% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 7",
+          "rate": "6.10%",
+          "details": "6.10% | 6.20% | 6.15% | 6.25% | 6.20% | 6.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 8",
+          "rate": "6.10%",
+          "details": "6.10% | 6.21% | 6.15% | 6.26% | 6.20% | 6.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 9",
+          "rate": "6.20%",
+          "details": "6.20% | 6.35% | 6.90% | 7.05% | 6.90% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 10",
+          "rate": "6.10%",
+          "details": "6.10% | 6.24% | 6.15% | 6.29% | 6.20% | 6.34%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 11",
+          "rate": "6.10%",
+          "details": "6.10% | 6.26% | 6.15% | 6.31% | 6.20% | 6.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 12",
+          "rate": "6.75%",
+          "details": "6.75% | 6.97% | 6.85% | 7.07% | 6.85% | 7.07%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 13-17",
+          "rate": "6.10%",
+          "details": "6.10% | 6.33% | 6.15% | 6.38% | 6.20% | 6.43%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 18",
+          "rate": "6.25%",
+          "details": "6.25% | 6.54% | 6.35% | 6.64% | 6.45% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 19-23",
+          "rate": "6.05%",
+          "details": "6.05% | 6.37% | 6.15% | 6.47% | 6.20% | 6.52%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 24",
+          "rate": "6.25%",
+          "details": "6.25% | 6.64% | 6.25% | 6.64% | 6.30% | 6.69%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 25-35",
+          "rate": "6.20%",
+          "details": "6.20% | 6.69% | 6.20% | 6.69% | 6.25% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 36",
+          "rate": "6.40%",
+          "details": "6.40% | 7.06% | 6.50% | 7.16% | 6.60% | 7.26%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 37-47",
+          "rate": "6.35%",
+          "details": "6.35% | 7.11% | 6.45% | 7.21% | 6.55% | 7.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 48-59",
+          "rate": "6.50%",
+          "details": "6.50% | 7.53% | 6.55% | 7.58% | 6.55% | 7.58%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates Including Digital Bonus \u2013 60",
+          "rate": "7.05%",
+          "details": "7.05% | 8.44% | 7.10% | 8.49% | 7.10% | 8.49%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 8 to 31 days",
+          "rate": "5.80%",
+          "details": "5.80% | 5.80% | 5.90% | 5.90% | 5.90% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 1",
+          "rate": "6.05%",
+          "details": "6.05% | 6.05% | 6.15% | 6.15% | 6.20% | 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 2",
+          "rate": "6.00%",
+          "details": "6.00% | 6.01% | 6.10% | 6.11% | 6.15% | 6.16%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 3",
+          "rate": "6.10%",
+          "details": "6.10% | 6.13% | 6.15% | 6.18% | 6.25% | 6.28%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 4",
+          "rate": "6.10%",
+          "details": "6.10% | 6.14% | 6.15% | 6.19% | 6.25% | 6.29%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 5",
+          "rate": "6.10%",
+          "details": "6.10% | 6.16% | 6.15% | 6.21% | 6.25% | 6.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 6",
+          "rate": "6.40%",
+          "details": "6.40% | 6.50% | 6.90% | 7.00% | 6.90% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 7",
+          "rate": "6.25%",
+          "details": "6.25% | 6.35% | 6.30% | 6.40% | 6.35% | 6.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 8",
+          "rate": "6.25%",
+          "details": "6.25% | 6.36% | 6.30% | 6.41% | 6.35% | 6.46%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 9",
+          "rate": "6.30%",
+          "details": "6.30% | 6.45% | 7.00% | 7.15% | 7.00% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 10",
+          "rate": "6.25%",
+          "details": "6.25% | 6.39% | 6.30% | 6.44% | 6.35% | 6.49%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 11",
+          "rate": "6.20%",
+          "details": "6.20% | 6.36% | 6.25% | 6.41% | 6.30% | 6.46%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 12",
+          "rate": "6.85%",
+          "details": "6.85% | 7.07% | 6.95% | 7.17% | 6.95% | 7.17%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 13-17",
+          "rate": "6.20%",
+          "details": "6.20% | 6.43% | 6.25% | 6.48% | 6.30% | 6.53%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 18",
+          "rate": "6.40%",
+          "details": "6.40% | 6.69% | 6.50% | 6.79% | 6.55% | 6.84%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 19-23",
+          "rate": "6.20%",
+          "details": "6.20% | 6.52% | 6.30% | 6.62% | 6.35% | 6.67%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 24",
+          "rate": "6.35%",
+          "details": "6.35% | 6.74% | 6.35% | 6.74% | 6.40% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 25-35",
+          "rate": "6.30%",
+          "details": "6.30% | 6.79% | 6.30% | 6.79% | 6.35% | 6.84%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 36",
+          "rate": "6.65%",
+          "details": "6.65% | 7.31% | 6.70% | 7.36% | 6.70% | 7.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 37-47",
+          "rate": "6.60%",
+          "details": "6.60% | 7.36% | 6.65% | 7.41% | 6.65% | 7.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 48-59",
+          "rate": "6.60%",
+          "details": "6.60% | 7.63% | 6.65% | 7.68% | 6.65% | 7.68%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Rates \u2013 60",
+          "rate": "7.25%",
+          "details": "7.25% | 8.64% | 7.35% | 8.74% | 7.35% | 8.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 8 to 31 days",
+          "rate": "5.50%",
+          "details": "5.50% | 5.50% | 5.60% | 5.60% | 5.60% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 1",
+          "rate": "5.80%",
+          "details": "5.80% | 5.80% | 5.90% | 5.90% | 5.95% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 2",
+          "rate": "5.75%",
+          "details": "5.75% | 5.76% | 5.85% | 5.86% | 5.90% | 5.91%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 3",
+          "rate": "5.95%",
+          "details": "5.95% | 5.98% | 6.00% | 6.03% | 6.10% | 6.13%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 4",
+          "rate": "5.95%",
+          "details": "5.95% | 5.99% | 6.00% | 6.04% | 6.10% | 6.14%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 5",
+          "rate": "5.95%",
+          "details": "5.95% | 6.01% | 6.00% | 6.06% | 6.10% | 6.16%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 6",
+          "rate": "6.30%",
+          "details": "6.30% | 6.40% | 6.80% | 6.90% | 6.80% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 7",
+          "rate": "6.15%",
+          "details": "6.15% | 6.25% | 6.20% | 6.30% | 6.25% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 8",
+          "rate": "6.15%",
+          "details": "6.15% | 6.26% | 6.20% | 6.31% | 6.25% | 6.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 9",
+          "rate": "6.20%",
+          "details": "6.20% | 6.35% | 6.90% | 7.05% | 6.90% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 10",
+          "rate": "6.15%",
+          "details": "6.15% | 6.29% | 6.20% | 6.34% | 6.25% | 6.39%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 11",
+          "rate": "6.15%",
+          "details": "6.15% | 6.31% | 6.20% | 6.36% | 6.25% | 6.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 12",
+          "rate": "6.80%",
+          "details": "6.80% | 7.02% | 6.90% | 7.12% | 6.90% | 7.12%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 13-17",
+          "rate": "6.15%",
+          "details": "6.15% | 6.38% | 6.20% | 6.43% | 6.25% | 6.48%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 18",
+          "rate": "6.30%",
+          "details": "6.30% | 6.59% | 6.40% | 6.69% | 6.45% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 19-23",
+          "rate": "6.10%",
+          "details": "6.10% | 6.42% | 6.20% | 6.52% | 6.25% | 6.57%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 24",
+          "rate": "6.30%",
+          "details": "6.30% | 6.69% | 6.30% | 6.69% | 6.35% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 25-35",
+          "rate": "6.25%",
+          "details": "6.25% | 6.74% | 6.25% | 6.74% | 6.30% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 36",
+          "rate": "6.60%",
+          "details": "6.60% | 7.26% | 6.65% | 7.31% | 6.65% | 7.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 37-47",
+          "rate": "6.55%",
+          "details": "6.55% | 7.31% | 6.60% | 7.36% | 6.60% | 7.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 48-59",
+          "rate": "6.55%",
+          "details": "6.55% | 7.58% | 6.60% | 7.63% | 6.60% | 7.63%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Rates Including Digital Bonus \u2013 60",
+          "rate": "7.10%",
+          "details": "7.10% | 8.49% | 7.20% | 8.59% | 7.20% | 8.59%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 Percentage of access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 1 month",
+          "rate": "5.95%",
+          "details": "5.95% | 5.70% | 5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 3 months",
+          "rate": "6.05%",
+          "details": "6.05% | 5.80% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 6 months",
+          "rate": "6.70%",
+          "details": "6.70% | 6.45% | 6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 9 months",
+          "rate": "6.55%",
+          "details": "6.55% | 6.30% | 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 12 months",
+          "rate": "7.15%",
+          "details": "7.15% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 18 months",
+          "rate": "7.20%",
+          "details": "7.20% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 24 months",
+          "rate": "7.45%",
+          "details": "7.45% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 36 months",
+          "rate": "7.45%",
+          "details": "7.45% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "islamic-dynamic-deposit \u2013 60 months",
+          "rate": "7.55%",
+          "details": "7.55% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 Percentage of access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 1 month",
+          "rate": "6.05%",
+          "details": "6.05% | 5.80% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 3 months",
+          "rate": "6.10%",
+          "details": "6.10% | 5.85% | 5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 6 months",
+          "rate": "7.00%",
+          "details": "7.00% | 6.75% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 9 months",
+          "rate": "7.05%",
+          "details": "7.05% | 6.80% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 12 months",
+          "rate": "7.25%",
+          "details": "7.25% | 7.00% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 18 months",
+          "rate": "7.40%",
+          "details": "7.40% | 7.15% | 6.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 24 months",
+          "rate": "7.45%",
+          "details": "7.45% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 36 months",
+          "rate": "7.55%",
+          "details": "7.55% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 60 months",
+          "rate": "7.75%",
+          "details": "7.75% | 7.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 1 month",
+          "rate": "6.10%",
+          "details": "6.10% | 5.85% | 5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 3 months",
+          "rate": "6.20%",
+          "details": "6.20% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 18 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 24 months",
+          "rate": "7.55%",
+          "details": "7.55% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 36 months",
+          "rate": "7.75%",
+          "details": "7.75% | 7.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 60 months",
+          "rate": "7.90%",
+          "details": "7.90% | 7.65% | 7.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 6 months",
+          "rate": "6.70%",
+          "details": "6.70% | 6.45% | 6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 9 months",
+          "rate": "6.55%",
+          "details": "6.55% | 6.30% | 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 12 months",
+          "rate": "7.20%",
+          "details": "7.20% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 18 months",
+          "rate": "7.25%",
+          "details": "7.25% | 7.00% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 24 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 36 months",
+          "rate": "7.65%",
+          "details": "7.65% | 7.40% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 60 months",
+          "rate": "7.60%",
+          "details": "7.60% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 Percentage of access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 1 month",
+          "rate": "6.15%",
+          "details": "6.15% | 5.90% | 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 3 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 6 months",
+          "rate": "7.00%",
+          "details": "7.00% | 6.75% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 9 months",
+          "rate": "7.05%",
+          "details": "7.05% | 6.80% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 12 months",
+          "rate": "7.30%",
+          "details": "7.30% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 18 months",
+          "rate": "7.45%",
+          "details": "7.45% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 24 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 36 months",
+          "rate": "7.70%",
+          "details": "7.70% | 7.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 60 months",
+          "rate": "7.85%",
+          "details": "7.85% | 7.60% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 1 month",
+          "rate": "6.20%",
+          "details": "6.20% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 3 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 18 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 24 months",
+          "rate": "7.60%",
+          "details": "7.60% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 36 months",
+          "rate": "7.80%",
+          "details": "7.80% | 7.55% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 60 months",
+          "rate": "8.00%",
+          "details": "8.00% | 7.75% | 7.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 Percentage of access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 1 month",
+          "rate": "6.20%",
+          "details": "6.20% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 3 months",
+          "rate": "6.20%",
+          "details": "6.20% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 6 months",
+          "rate": "6.80%",
+          "details": "6.80% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 9 months",
+          "rate": "6.65%",
+          "details": "6.65% | 6.40% | 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 12 months",
+          "rate": "7.20%",
+          "details": "7.20% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 18 months",
+          "rate": "7.30%",
+          "details": "7.30% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 24 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 36 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Dynamic Deposit Including Digital Bonus \u2013 60 months",
+          "rate": "7.70%",
+          "details": "7.70% | 7.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 1 month",
+          "rate": "6.30%",
+          "details": "6.30% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 3 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 6 months",
+          "rate": "7.10%",
+          "details": "7.10% | 6.85% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 9 months",
+          "rate": "7.15%",
+          "details": "7.15% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 12 months",
+          "rate": "7.30%",
+          "details": "7.30% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 36 months",
+          "rate": "7.60%",
+          "details": "7.60% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 1 month",
+          "rate": "6.35%",
+          "details": "6.35% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 3 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 18 months",
+          "rate": "7.60%",
+          "details": "7.60% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 24 months",
+          "rate": "7.60%",
+          "details": "7.60% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 36 months",
+          "rate": "7.80%",
+          "details": "7.80% | 7.55% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 60 months",
+          "rate": "8.05%",
+          "details": "8.05% | 7.80% | 7.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 6 months",
+          "rate": "6.80%",
+          "details": "6.80% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 9 months",
+          "rate": "6.65%",
+          "details": "6.65% | 6.40% | 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 18 months",
+          "rate": "7.35%",
+          "details": "7.35% | 7.10% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Profit Share Rates \u2013 36 months",
+          "rate": "7.70%",
+          "details": "7.70% | 7.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 1 month",
+          "rate": "6.40%",
+          "details": "6.40% | 6.15% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 3 months",
+          "rate": "6.40%",
+          "details": "6.40% | 6.15% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 6 months",
+          "rate": "7.10%",
+          "details": "7.10% | 6.85% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 9 months",
+          "rate": "7.15%",
+          "details": "7.15% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 12 months",
+          "rate": "7.35%",
+          "details": "7.35% | 7.10% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 18 months",
+          "rate": "7.55%",
+          "details": "7.55% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 24 months",
+          "rate": "7.55%",
+          "details": "7.55% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 36 months",
+          "rate": "7.75%",
+          "details": "7.75% | 7.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 1 month",
+          "rate": "6.45%",
+          "details": "6.45% | 6.20% | 6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 3 months",
+          "rate": "6.50%",
+          "details": "6.50% | 6.25% | 6.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 18 months",
+          "rate": "7.60%",
+          "details": "7.60% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 24 months",
+          "rate": "7.65%",
+          "details": "7.65% | 7.40% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 36 months",
+          "rate": "7.85%",
+          "details": "7.85% | 7.60% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Profit Share Rates \u2013 60 months",
+          "rate": "8.15%",
+          "details": "8.15% | 7.90% | 7.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Notice Deposits \u2013 R0.01 - R249,999.99",
+          "rate": "3.60%",
+          "details": "3.60% | 0.20% | 3.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Notice Deposits \u2013 R250,000 +",
+          "rate": "6.85%",
+          "details": "6.85% | 0.20% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R0.01 - R49.99",
+          "rate": "0.00%",
+          "details": "0.00% | 0.00% | 0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R50 - R499.99",
+          "rate": "4.25%",
+          "details": "4.25% | 0.30% | 4.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R500 - R999.99",
+          "rate": "4.25%",
+          "details": "4.25% | 0.30% | 4.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R1,000 - R1,999.99",
+          "rate": "4.45%",
+          "details": "4.45% | 0.30% | 4.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R2,000 - R4,999.99",
+          "rate": "4.45%",
+          "details": "4.45% | 0.30% | 4.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R5,000 - R5,999.99",
+          "rate": "4.45%",
+          "details": "4.45% | 0.30% | 4.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R6,000 - R9,999.99",
+          "rate": "4.65%",
+          "details": "4.65% | 0.30% | 4.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R10,000 - R19,999.99",
+          "rate": "4.85%",
+          "details": "4.85% | 0.30% | 5.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R20,000 - R24,999.99",
+          "rate": "5.25%",
+          "details": "5.25% | 0.30% | 5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "futureplan \u2013 R25,000 +",
+          "rate": "5.75%",
+          "details": "5.75% | 0.30% | 6.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Future Plan \u2013 01 Month - 12 Months",
+          "rate": "1.00%",
+          "details": "1.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Future Plan \u2013 13 Months - 24 Months",
+          "rate": "2.00%",
+          "details": "2.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Future Plan \u2013 25 Months - 36 Months",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Future Plan \u2013 37 Months - 48 Months",
+          "rate": "6.00%",
+          "details": "6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Future Plan \u2013 49 Months - 59 Months",
+          "rate": "7.00%",
+          "details": "7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Future Plan \u2013 60 Months +",
+          "rate": "7.50%",
+          "details": "7.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "notice-select \u2013 50/50",
+          "rate": "0.10%",
+          "details": "0.10% | 0.10% | 0.10% | 0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "notice-select \u2013 90/10",
+          "rate": "0.10%",
+          "details": "0.10% | 0.10% | 0.10% | 0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "notice-select \u2013 100/0",
+          "rate": "0.10%",
+          "details": "0.10% | 0.10% | 0.10% | 0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "0.35%",
+          "details": "0.35% | 0.35% | 0.35% | 0.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "0.35%",
+          "details": "0.35% | 0.35% | 0.35% | 0.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "0.35%",
+          "details": "0.35% | 0.35% | 0.35% | 0.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 50/50",
+          "rate": "5.05%",
+          "details": "5.05% | 5.30% | 5.35% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 90/10",
+          "rate": "5.25%",
+          "details": "5.25% | 5.50% | 5.55% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 100/0",
+          "rate": "5.35%",
+          "details": "5.35% | 5.60% | 5.65% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "5.30%",
+          "details": "5.30% | 5.55% | 5.60% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "5.50%",
+          "details": "5.50% | 5.75% | 5.80% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "5.60%",
+          "details": "5.60% | 5.85% | 5.90% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 50/50",
+          "rate": "5.87%",
+          "details": "5.87% | 6.10% | 6.13% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 90/10",
+          "rate": "5.99%",
+          "details": "5.99% | 6.22% | 6.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 100/00",
+          "rate": "6.07%",
+          "details": "6.07% | 6.30% | 6.33% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "6.12%",
+          "details": "6.12% | 6.35% | 6.38% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "6.24%",
+          "details": "6.24% | 6.47% | 6.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "6.32%",
+          "details": "6.32% | 6.55% | 6.58% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Balance R25 000 \u2013 R49 999 \u2013 50/50",
+          "rate": "5.95%",
+          "details": "5.95% | 6.20% | 6.23% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Balance R25 000 \u2013 R49 999 \u2013 90/10",
+          "rate": "6.07%",
+          "details": "6.07% | 6.32% | 6.35% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Balance R25 000 \u2013 R49 999 \u2013 100/00",
+          "rate": "6.15%",
+          "details": "6.15% | 6.40% | 6.43% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "6.20%",
+          "details": "6.20% | 6.45% | 6.48% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "6.32%",
+          "details": "6.32% | 6.57% | 6.60% | 7.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "6.40%",
+          "details": "6.40% | 6.65% | 6.68% | 7.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 50/50",
+          "rate": "6.05%",
+          "details": "6.05% | 6.30% | 6.32% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 90/10",
+          "rate": "6.15%",
+          "details": "6.15% | 6.40% | 6.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 100/00",
+          "rate": "6.25%",
+          "details": "6.25% | 6.50% | 6.60% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "6.30%",
+          "details": "6.30% | 6.55% | 6.57% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "6.40%",
+          "details": "6.40% | 6.65% | 6.70% | 7.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "6.50%",
+          "details": "6.50% | 6.75% | 6.85% | 7.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 50/50",
+          "rate": "6.13%",
+          "details": "6.13% | 6.35% | 6.37% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 90/10",
+          "rate": "6.23%",
+          "details": "6.23% | 6.45% | 6.50% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 100/00",
+          "rate": "6.33%",
+          "details": "6.33% | 6.55% | 6.65% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "6.38%",
+          "details": "6.38% | 6.60% | 6.62% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "6.48%",
+          "details": "6.48% | 6.70% | 6.75% | 7.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "6.58%",
+          "details": "6.58% | 6.80% | 6.90% | 7.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 50/50",
+          "rate": "6.15%",
+          "details": "6.15% | 6.40% | 6.42% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 90/10",
+          "rate": "6.25%",
+          "details": "6.25% | 6.50% | 6.55% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Digital Bonus Rate \u2013 100/00",
+          "rate": "6.35%",
+          "details": "6.35% | 6.60% | 6.70% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 50/50",
+          "rate": "6.40%",
+          "details": "6.40% | 6.65% | 6.67% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 90/10",
+          "rate": "6.50%",
+          "details": "6.50% | 6.75% | 6.80% | 7.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Rate \u2013 100/0",
+          "rate": "6.60%",
+          "details": "6.60% | 6.85% | 6.95% | 7.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R0.01 - R999.99",
+          "rate": "0.10%",
+          "details": "0.10% | 0.25% | 0.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R1,000 - R14,999.99",
+          "rate": "6.50%",
+          "details": "6.50% | 0.25% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R15,000 - R29,999.99",
+          "rate": "6.50%",
+          "details": "6.50% | 0.25% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R30,000 - R49,999.99",
+          "rate": "6.50%",
+          "details": "6.50% | 0.25% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R50,000 - R74,999.99",
+          "rate": "6.50%",
+          "details": "6.50% | 0.25% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R75,000 - R99,999.99",
+          "rate": "6.55%",
+          "details": "6.55% | 0.25% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R100,000 - R249,999.99",
+          "rate": "6.55%",
+          "details": "6.55% | 0.25% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R250,000 - R499,999.99",
+          "rate": "7.15%",
+          "details": "7.15% | 0.25% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-savings \u2013 R500,000 +",
+          "rate": "7.15%",
+          "details": "7.15% | 0.25% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "tax-free-fixed \u2013 R30,000 +",
+          "rate": "7.01%",
+          "details": "7.01%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "investment-club \u2013 R0.01 - R4,999.99",
+          "rate": "5.55%",
+          "details": "5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "investment-club \u2013 R5,000 - R9,999.99",
+          "rate": "5.55%",
+          "details": "5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "investment-club \u2013 R10,000 - R24,999.99",
+          "rate": "5.75%",
+          "details": "5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "investment-club \u2013 R25,000 - R49,999.99",
+          "rate": "6.20%",
+          "details": "6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "investment-club \u2013 R50,000 - R99,999.99",
+          "rate": "6.30%",
+          "details": "6.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "investment-club \u2013 R100,000+",
+          "rate": "6.30%",
+          "details": "6.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "travel-club \u2013 R0.01 - R999.99",
+          "rate": "0.10%",
+          "details": "0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "travel-club \u2013 R1,000 - R9,999.99",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "travel-club \u2013 R10,000 - R24,999.99",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "travel-club \u2013 R25,000 - R49,999.99",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "travel-club \u2013 R50,000 - R99,999.99",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "travel-club \u2013 R100,000+",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "grocery-stokvel \u2013 R0.01 +",
+          "rate": "3.75%",
+          "details": "3.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 Percentage of Access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 1 month",
+          "rate": "5.95%",
+          "details": "5.95% | 5.95% | 5.70% | 5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 3 month",
+          "rate": "6.05%",
+          "details": "6.05% | 6.08% | 5.80% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 6 months",
+          "rate": "6.70%",
+          "details": "6.70% | 6.80% | 6.45% | 6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 9 months",
+          "rate": "6.55%",
+          "details": "6.55% | 6.70% | 6.30% | 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 12 months",
+          "rate": "7.15%",
+          "details": "7.15% | 7.39% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 18 months",
+          "rate": "7.20%",
+          "details": "7.20% | 7.60% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 24 months",
+          "rate": "7.45%",
+          "details": "7.45% | 8.01% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 36 months",
+          "rate": "7.45%",
+          "details": "7.45% | 8.35% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "dynamic-fixed-deposit \u2013 60 months",
+          "rate": "7.55%",
+          "details": "7.55% | 9.22% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 Percentage of Access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "6.05%",
+          "details": "6.05% | 6.05% | 5.80% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 month",
+          "rate": "6.10%",
+          "details": "6.10% | 6.13% | 5.85% | 5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "7.00%",
+          "details": "7.00% | 7.10% | 6.75% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "7.05%",
+          "details": "7.05% | 7.20% | 6.80% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 12 months",
+          "rate": "7.25%",
+          "details": "7.25% | 7.49% | 7.00% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "7.40%",
+          "details": "7.40% | 7.80% | 7.15% | 6.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "7.45%",
+          "details": "7.45% | 8.01% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.55%",
+          "details": "7.55% | 8.45% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.75%",
+          "details": "7.75% | 9.42% | 7.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "6.10%",
+          "details": "6.10% | 6.10% | 5.85% | 5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 month",
+          "rate": "6.20%",
+          "details": "6.20% | 6.23% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.90% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "7.55%",
+          "details": "7.55% | 8.11% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.75%",
+          "details": "7.75% | 8.65% | 7.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.90%",
+          "details": "7.90% | 9.57% | 7.65% | 7.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.70%",
+          "details": "6.70% | 6.80% | 6.45% | 6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "6.55%",
+          "details": "6.55% | 6.70% | 6.30% | 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 12 months",
+          "rate": "7.20%",
+          "details": "7.20% | 7.44% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "7.25%",
+          "details": "7.25% | 7.65% | 7.00% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "7.50%",
+          "details": "7.50% | 8.06% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.65%",
+          "details": "7.65% | 8.55% | 7.40% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.60%",
+          "details": "7.60% | 9.27% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 Percentage of Access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "6.15%",
+          "details": "6.15% | 6.15% | 5.90% | 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 month",
+          "rate": "6.25%",
+          "details": "6.25% | 6.28% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 6 months",
+          "rate": "7.00%",
+          "details": "7.00% | 7.10% | 6.75% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 9 months",
+          "rate": "7.05%",
+          "details": "7.05% | 7.20% | 6.80% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 12 months",
+          "rate": "7.30%",
+          "details": "7.30% | 7.54% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 18 months",
+          "rate": "7.45%",
+          "details": "7.45% | 7.85% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "7.50%",
+          "details": "7.50% | 8.06% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 36 months",
+          "rate": "7.70%",
+          "details": "7.70% | 8.60% | 7.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 60 months",
+          "rate": "7.85%",
+          "details": "7.85% | 9.52% | 7.60% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "6.20%",
+          "details": "6.20% | 6.20% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 month",
+          "rate": "6.35%",
+          "details": "6.35% | 6.38% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 18 months",
+          "rate": "7.50%",
+          "details": "7.50% | 7.90% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "7.60%",
+          "details": "7.60% | 8.16% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 36 months",
+          "rate": "7.80%",
+          "details": "7.80% | 8.70% | 7.55% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 60 months",
+          "rate": "8.00%",
+          "details": "8.00% | 9.67% | 7.75% | 7.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 Percentage of Access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 1 month",
+          "rate": "6.20%",
+          "details": "6.20% | 6.20% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 3 month",
+          "rate": "6.20%",
+          "details": "6.20% | 6.23% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 6 months",
+          "rate": "6.80%",
+          "details": "6.80% | 6.90% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 9 months",
+          "rate": "6.65%",
+          "details": "6.65% | 6.80% | 6.40% | 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 12 months",
+          "rate": "7.20%",
+          "details": "7.20% | 7.44% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 18 months",
+          "rate": "7.30%",
+          "details": "7.30% | 7.70% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 24 months",
+          "rate": "7.50%",
+          "details": "7.50% | 8.06% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 36 months",
+          "rate": "7.50%",
+          "details": "7.50% | 8.40% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Deposit Including Digital Bonus \u2013 60 months",
+          "rate": "7.70%",
+          "details": "7.70% | 9.37% | 7.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "6.30%",
+          "details": "6.30% | 6.30% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 month",
+          "rate": "6.25%",
+          "details": "6.25% | 6.28% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "7.10%",
+          "details": "7.10% | 7.20% | 6.85% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "7.15%",
+          "details": "7.15% | 7.30% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 12 months",
+          "rate": "7.30%",
+          "details": "7.30% | 7.54% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.60%",
+          "details": "7.60% | 8.50% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "6.35%",
+          "details": "6.35% | 6.35% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 month",
+          "rate": "6.35%",
+          "details": "6.35% | 6.38% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "7.60%",
+          "details": "7.60% | 8.00% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "7.60%",
+          "details": "7.60% | 8.16% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.80%",
+          "details": "7.80% | 8.70% | 7.55% | 7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "8.05%",
+          "details": "8.05% | 9.72% | 7.80% | 7.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.80%",
+          "details": "6.80% | 6.90% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "6.65%",
+          "details": "6.65% | 6.80% | 6.40% | 6.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "7.35%",
+          "details": "7.35% | 7.75% | 7.10% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.70%",
+          "details": "7.70% | 8.60% | 7.45% | 7.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "6.40%",
+          "details": "6.40% | 6.40% | 6.15% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 month",
+          "rate": "6.40%",
+          "details": "6.40% | 6.43% | 6.15% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 6 months",
+          "rate": "7.10%",
+          "details": "7.10% | 7.20% | 6.85% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 9 months",
+          "rate": "7.15%",
+          "details": "7.15% | 7.30% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 12 months",
+          "rate": "7.35%",
+          "details": "7.35% | 7.59% | 7.10% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 18 months",
+          "rate": "7.55%",
+          "details": "7.55% | 7.95% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "7.55%",
+          "details": "7.55% | 8.11% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 36 months",
+          "rate": "7.75%",
+          "details": "7.75% | 8.65% | 7.50% | 7.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "6.45%",
+          "details": "6.45% | 6.45% | 6.20% | 6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 month",
+          "rate": "6.50%",
+          "details": "6.50% | 6.53% | 6.25% | 6.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 18 months",
+          "rate": "7.60%",
+          "details": "7.60% | 8.00% | 7.35% | 7.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "7.65%",
+          "details": "7.65% | 8.21% | 7.40% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 36 months",
+          "rate": "7.85%",
+          "details": "7.85% | 8.75% | 7.60% | 7.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 60 months",
+          "rate": "8.15%",
+          "details": "8.15% | 9.82% | 7.90% | 7.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 8 to 31 days",
+          "rate": "5.60%",
+          "details": "5.60% | 5.60% | 5.70% | 5.70% | 5.70% | 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 1 month",
+          "rate": "5.95%",
+          "details": "5.95% | 5.95% | 6.05% | 6.05% | 6.10% | 6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 2 months",
+          "rate": "5.90%",
+          "details": "5.90% | 5.91% | 6.00% | 6.01% | 6.05% | 6.06%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 3 months",
+          "rate": "5.95%",
+          "details": "5.95% | 5.98% | 6.00% | 6.03% | 6.10% | 6.13%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 4 months",
+          "rate": "5.95%",
+          "details": "5.95% | 5.99% | 6.00% | 6.04% | 6.10% | 6.14%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 5 months",
+          "rate": "5.95%",
+          "details": "5.95% | 6.01% | 6.00% | 6.06% | 6.10% | 6.16%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 6 months",
+          "rate": "6.40%",
+          "details": "6.40% | 6.50% | 6.65% | 6.75% | 6.65% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 7 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.30% | 6.25% | 6.35% | 6.30% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 8 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.31% | 6.25% | 6.36% | 6.30% | 6.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 9 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.49% | 6.70% | 6.84% | 6.75% | 6.89%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 10 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.34% | 6.25% | 6.39% | 6.30% | 6.44%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 11 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.31% | 6.20% | 6.36% | 6.25% | 6.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 12 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.02% | 6.90% | 7.12% | 6.90% | 7.12%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 13-17 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.38% | 6.20% | 6.43% | 6.25% | 6.48%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 18 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.64% | 6.45% | 6.74% | 6.55% | 6.84%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 19-23 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.47% | 6.25% | 6.57% | 6.30% | 6.62%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 24 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.69% | 6.30% | 6.69% | 6.35% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 25-35 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.74% | 6.25% | 6.74% | 6.30% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 36 months",
+          "rate": "6.45%",
+          "details": "6.45% | 7.11% | 6.55% | 7.21% | 6.65% | 7.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 37-47 months",
+          "rate": "6.40%",
+          "details": "6.40% | 7.16% | 6.50% | 7.26% | 6.60% | 7.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 48-59 months",
+          "rate": "6.55%",
+          "details": "6.55% | 7.58% | 6.60% | 7.63% | 6.60% | 7.63%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "fixed-deposit \u2013 60 months",
+          "rate": "7.20%",
+          "details": "7.20% | 8.59% | 7.25% | 8.64% | 7.25% | 8.64%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 8 to 31 days",
+          "rate": "5.30%",
+          "details": "5.30% | 5.30% | 5.40% | 5.40% | 5.40% | 5.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 1 month",
+          "rate": "5.70%",
+          "details": "5.70% | 5.70% | 5.80% | 5.80% | 5.85% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 2 months",
+          "rate": "5.65%",
+          "details": "5.65% | 5.66% | 5.75% | 5.76% | 5.80% | 5.81%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 3 months",
+          "rate": "5.80%",
+          "details": "5.80% | 5.83% | 5.85% | 5.88% | 5.95% | 5.98%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 4 months",
+          "rate": "5.80%",
+          "details": "5.80% | 5.84% | 5.85% | 5.89% | 5.95% | 5.99%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 5 months",
+          "rate": "5.80%",
+          "details": "5.80% | 5.86% | 5.85% | 5.91% | 5.95% | 6.01%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 6 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.40% | 6.55% | 6.65% | 6.55% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 7 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.20% | 6.15% | 6.25% | 6.20% | 6.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 8 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.21% | 6.15% | 6.26% | 6.20% | 6.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 9 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.39% | 6.60% | 6.74% | 6.65% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 10 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.24% | 6.15% | 6.29% | 6.20% | 6.34%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 11 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.26% | 6.15% | 6.31% | 6.20% | 6.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 12 months",
+          "rate": "6.75%",
+          "details": "6.75% | 6.97% | 6.85% | 7.07% | 6.85% | 7.07%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 13-17 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.33% | 6.15% | 6.38% | 6.20% | 6.43%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 18 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.54% | 6.35% | 6.64% | 6.45% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 19-23 months",
+          "rate": "6.05%",
+          "details": "6.05% | 6.37% | 6.15% | 6.47% | 6.20% | 6.52%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 24 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.64% | 6.25% | 6.64% | 6.30% | 6.69%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 25-35 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.69% | 6.20% | 6.69% | 6.25% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 36 months",
+          "rate": "6.40%",
+          "details": "6.40% | 7.06% | 6.50% | 7.16% | 6.60% | 7.26%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 37-47 months",
+          "rate": "6.35%",
+          "details": "6.35% | 7.11% | 6.45% | 7.21% | 6.55% | 7.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 48-59 months",
+          "rate": "6.50%",
+          "details": "6.50% | 7.53% | 6.55% | 7.58% | 6.55% | 7.58%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates including Digital Bonus \u2013 60 months",
+          "rate": "7.05%",
+          "details": "7.05% | 8.44% | 7.10% | 8.49% | 7.10% | 8.49%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 8 to 31 days",
+          "rate": "5.80%",
+          "details": "5.80% | 5.80% | 5.90% | 5.90% | 5.90% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 2 months",
+          "rate": "6.00%",
+          "details": "6.00% | 6.01% | 6.10% | 6.11% | 6.15% | 6.16%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.13% | 6.15% | 6.18% | 6.25% | 6.28%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 4 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.14% | 6.15% | 6.19% | 6.25% | 6.29%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 5 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.16% | 6.15% | 6.21% | 6.25% | 6.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.40%",
+          "details": "6.40% | 6.50% | 6.65% | 6.75% | 6.65% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 7 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.35% | 6.30% | 6.40% | 6.35% | 6.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 8 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.36% | 6.30% | 6.41% | 6.35% | 6.46%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.49% | 6.70% | 6.84% | 6.75% | 6.89%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 10 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.39% | 6.30% | 6.44% | 6.35% | 6.49%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 11 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.36% | 6.25% | 6.41% | 6.30% | 6.46%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 12 months",
+          "rate": "6.85%",
+          "details": "6.85% | 7.07% | 6.95% | 7.17% | 6.95% | 7.17%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 13-17 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.43% | 6.25% | 6.48% | 6.30% | 6.53%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "6.40%",
+          "details": "6.40% | 6.69% | 6.50% | 6.79% | 6.55% | 6.84%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 19-23 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.52% | 6.30% | 6.62% | 6.35% | 6.67%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.74% | 6.35% | 6.74% | 6.40% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 25-35 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.79% | 6.30% | 6.79% | 6.35% | 6.84%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "6.65%",
+          "details": "6.65% | 7.31% | 6.70% | 7.36% | 6.70% | 7.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 37-47 months",
+          "rate": "6.60%",
+          "details": "6.60% | 7.36% | 6.65% | 7.41% | 6.65% | 7.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 48-59 months",
+          "rate": "6.60%",
+          "details": "6.60% | 7.63% | 6.65% | 7.68% | 6.65% | 7.68%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.25%",
+          "details": "7.25% | 8.64% | 7.35% | 8.74% | 7.35% | 8.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 8 to 31 days",
+          "rate": "5.50%",
+          "details": "5.50% | 5.50% | 5.60% | 5.60% | 5.60% | 5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 1 month",
+          "rate": "5.80%",
+          "details": "5.80% | 5.80% | 5.90% | 5.90% | 5.95% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 2 months",
+          "rate": "5.75%",
+          "details": "5.75% | 5.76% | 5.85% | 5.86% | 5.90% | 5.91%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 3 months",
+          "rate": "5.95%",
+          "details": "5.95% | 5.98% | 6.00% | 6.03% | 6.10% | 6.13%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 4 months",
+          "rate": "5.95%",
+          "details": "5.95% | 5.99% | 6.00% | 6.04% | 6.10% | 6.14%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 5 months",
+          "rate": "5.95%",
+          "details": "5.95% | 6.01% | 6.00% | 6.06% | 6.10% | 6.16%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 6 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.40% | 6.55% | 6.65% | 6.55% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 7 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.25% | 6.20% | 6.30% | 6.25% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 8 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.26% | 6.20% | 6.31% | 6.25% | 6.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 9 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.39% | 6.60% | 6.74% | 6.65% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 10 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.29% | 6.20% | 6.34% | 6.25% | 6.39%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 11 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.31% | 6.20% | 6.36% | 6.25% | 6.41%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 12 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.02% | 6.90% | 7.12% | 6.90% | 7.12%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 13-17 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.38% | 6.20% | 6.43% | 6.25% | 6.48%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 18 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.59% | 6.40% | 6.69% | 6.45% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 19-23 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.42% | 6.20% | 6.52% | 6.25% | 6.57%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 24 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.69% | 6.30% | 6.69% | 6.35% | 6.74%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 25-35 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.74% | 6.25% | 6.74% | 6.30% | 6.79%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 36 months",
+          "rate": "6.60%",
+          "details": "6.60% | 7.26% | 6.65% | 7.31% | 6.65% | 7.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 37-47 months",
+          "rate": "6.55%",
+          "details": "6.55% | 7.31% | 6.60% | 7.36% | 6.60% | 7.36%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 48-59 months",
+          "rate": "6.55%",
+          "details": "6.55% | 7.58% | 6.60% | 7.63% | 6.60% | 7.63%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates Including Digital Bonus \u2013 60 months",
+          "rate": "7.10%",
+          "details": "7.10% | 8.49% | 7.20% | 8.59% | 7.20% | 8.59%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 Percentage of Access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 1 month",
+          "rate": "4.90%",
+          "details": "4.90% | 4.90% | 4.70% | 4.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 3 months",
+          "rate": "5.30%",
+          "details": "5.30% | 5.34% | 5.10% | 4.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 6 months",
+          "rate": "6.10%",
+          "details": "6.10% | 6.20% | 5.90% | 5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 9 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.31% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 12 months",
+          "rate": "6.75%",
+          "details": "6.75% | 6.98% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 18 months",
+          "rate": "6.65%",
+          "details": "6.65% | 6.99% | 6.45% | 6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 24 months",
+          "rate": "6.75%",
+          "details": "6.75% | 7.21% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 36 months",
+          "rate": "6.95%",
+          "details": "6.95% | 7.71% | 6.75% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit \u2013 60 months",
+          "rate": "7.25%",
+          "details": "7.25% | 8.79% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "4.95%",
+          "details": "4.95% | 4.95% | 4.75% | 4.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 months",
+          "rate": "5.35%",
+          "details": "5.35% | 5.39% | 5.15% | 4.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.15%",
+          "details": "6.15% | 6.25% | 5.95% | 5.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.36% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "6.75%",
+          "details": "6.75% | 7.09% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "6.75%",
+          "details": "6.75% | 7.21% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.05%",
+          "details": "7.05% | 7.81% | 6.85% | 6.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.35%",
+          "details": "7.35% | 8.89% | 7.15% | 6.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "5.00%",
+          "details": "5.00% | 5.00% | 4.80% | 4.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 months",
+          "rate": "5.40%",
+          "details": "5.40% | 5.44% | 5.20% | 5.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.30% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.41% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.14% | 6.60% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.26% | 6.60% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.15%",
+          "details": "7.15% | 7.91% | 6.95% | 6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 months",
+          "rate": "5.45%",
+          "details": "5.45% | 5.49% | 5.25% | 5.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 12 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.03% | 6.60% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "6.70%",
+          "details": "6.70% | 7.04% | 6.50% | 6.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.30%",
+          "details": "7.30% | 8.84% | 7.10% | 6.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "5.05%",
+          "details": "5.05% | 5.05% | 4.85% | 4.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 months",
+          "rate": "5.50%",
+          "details": "5.50% | 5.54% | 5.30% | 5.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 6 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.30% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 9 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.41% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 12 months",
+          "rate": "6.90%",
+          "details": "6.90% | 7.13% | 6.70% | 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 18 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.14% | 6.60% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.26% | 6.60% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 36 months",
+          "rate": "7.20%",
+          "details": "7.20% | 7.96% | 7.00% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 60 months",
+          "rate": "7.45%",
+          "details": "7.45% | 8.99% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "5.10%",
+          "details": "5.10% | 5.10% | 4.90% | 4.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 months",
+          "rate": "5.55%",
+          "details": "5.55% | 5.59% | 5.35% | 5.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 6 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.35% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 9 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.46% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "6.85%",
+          "details": "6.85% | 7.31% | 6.65% | 6.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 Percentage of Access",
+          "rate": "0%",
+          "details": "0% | 10% | 50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 1 month",
+          "rate": "5.15%",
+          "details": "5.15% | 5.15% | 4.95% | 4.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 3 month",
+          "rate": "5.45%",
+          "details": "5.45% | 5.49% | 5.25% | 5.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 6 months",
+          "rate": "6.20%",
+          "details": "6.20% | 6.30% | 6.00% | 5.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 9 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.41% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 12 months",
+          "rate": "6.80%",
+          "details": "6.80% | 7.03% | 6.60% | 6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 18 months",
+          "rate": "6.75%",
+          "details": "6.75% | 7.09% | 6.55% | 6.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 36 months",
+          "rate": "7.00%",
+          "details": "7.00% | 7.76% | 6.80% | 6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Dynamic Fixed Prime-Linked Deposit Including Digital Bonus \u2013 60 months",
+          "rate": "7.40%",
+          "details": "7.40% | 8.94% | 7.20% | 7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "5.20%",
+          "details": "5.20% | 5.20% | 5.00% | 4.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 month",
+          "rate": "5.50%",
+          "details": "5.50% | 5.54% | 5.30% | 5.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.25%",
+          "details": "6.25% | 6.35% | 6.05% | 5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 9 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.46% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 12 months",
+          "rate": "6.90%",
+          "details": "6.90% | 7.13% | 6.70% | 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "6.85%",
+          "details": "6.85% | 7.19% | 6.65% | 6.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.10%",
+          "details": "7.10% | 7.86% | 6.90% | 6.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.50%",
+          "details": "7.50% | 9.04% | 7.30% | 7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 1 month",
+          "rate": "5.25%",
+          "details": "5.25% | 5.25% | 5.05% | 4.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 month",
+          "rate": "5.55%",
+          "details": "5.55% | 5.59% | 5.35% | 5.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 6 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.40% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 18 months",
+          "rate": "6.90%",
+          "details": "6.90% | 7.24% | 6.70% | 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 24 months",
+          "rate": "6.85%",
+          "details": "6.85% | 7.31% | 6.65% | 6.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 36 months",
+          "rate": "7.20%",
+          "details": "7.20% | 7.96% | 7.00% | 6.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 3 months",
+          "rate": "5.60%",
+          "details": "5.60% | 5.64% | 5.40% | 5.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Standard Interest Rates \u2013 60 months",
+          "rate": "7.45%",
+          "details": "7.45% | 8.99% | 7.25% | 7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "5.30%",
+          "details": "5.30% | 5.30% | 5.10% | 4.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 month",
+          "rate": "5.65%",
+          "details": "5.65% | 5.69% | 5.45% | 5.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 6 months",
+          "rate": "6.30%",
+          "details": "6.30% | 6.40% | 6.10% | 5.90%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 9 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.51% | 6.15% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 12 months",
+          "rate": "6.95%",
+          "details": "6.95% | 7.18% | 6.75% | 6.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 18 months",
+          "rate": "6.90%",
+          "details": "6.90% | 7.24% | 6.70% | 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 36 months",
+          "rate": "7.25%",
+          "details": "7.25% | 8.01% | 7.05% | 6.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 60 months",
+          "rate": "7.60%",
+          "details": "7.60% | 9.14% | 7.40% | 7.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 1 month",
+          "rate": "5.35%",
+          "details": "5.35% | 5.35% | 5.15% | 4.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 3 month",
+          "rate": "5.70%",
+          "details": "5.70% | 5.74% | 5.50% | 5.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 6 months",
+          "rate": "6.35%",
+          "details": "6.35% | 6.45% | 6.15% | 5.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 9 months",
+          "rate": "6.40%",
+          "details": "6.40% | 6.56% | 6.20% | 6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Interest Rates \u2013 24 months",
+          "rate": "6.90%",
+          "details": "6.90% | 7.36% | 6.70% | 6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Profit Share \u2013 2024",
+          "rate": "6.40%",
+          "details": "6.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Profit Share \u2013 2023",
+          "rate": "6.50%",
+          "details": "6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Profit Share \u2013 2022",
+          "rate": "5.50%",
+          "details": "5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Profit Share \u2013 2021",
+          "rate": "4.05%",
+          "details": "4.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Profit Share \u2013 2020",
+          "rate": "4.00%",
+          "details": "4.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Profit Share \u2013 2019",
+          "rate": "5.50%",
+          "details": "5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Targetsave \u2013 2024",
+          "rate": "1.60%",
+          "details": "1.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Targetsave \u2013 2023",
+          "rate": "1.31%",
+          "details": "1.31%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Targetsave \u2013 2022",
+          "rate": "1.00%",
+          "details": "1.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Targetsave \u2013 2021",
+          "rate": "1.00%",
+          "details": "1.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Targetsave \u2013 2020",
+          "rate": "1.01%",
+          "details": "1.01%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Islamic Targetsave \u2013 2019",
+          "rate": "1.50%",
+          "details": "1.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Interest rates for products no longer available for sale \u2013 R0.01 - R99.99",
+          "rate": "0.10%",
+          "details": "0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Interest rates for products no longer available for sale \u2013 R100.00 - R10,000.00",
+          "rate": "4.40%",
+          "details": "4.40%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Interest rates for products no longer available for sale \u2013 R10,000.01 - R19,999.99",
+          "rate": "4.60%",
+          "details": "4.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Interest rates for products no longer available for sale \u2013 R20,000.00 - R24,999.99",
+          "rate": "4.75%",
+          "details": "4.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Interest rates for products no longer available for sale \u2013 R25,000.00 +",
+          "rate": "4.85%",
+          "details": "4.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave \u2013 0 - 6 Months",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave \u2013 7 - 12 Months",
+          "rate": "0.25%",
+          "details": "0.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave \u2013 13 - 18 Months",
+          "rate": "0.50%",
+          "details": "0.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave \u2013 19 - 9999 Months",
+          "rate": "0.75%",
+          "details": "0.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on \u2013 01 Month - 12 Months",
+          "rate": "0.50%",
+          "details": "0.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on \u2013 13 Months - 24 Months",
+          "rate": "1.50%",
+          "details": "1.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on \u2013 25 Months - 36 Months",
+          "rate": "3.50%",
+          "details": "3.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on \u2013 37 Months - 48 Months",
+          "rate": "5.50%",
+          "details": "5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on \u2013 49 Months - 59 Months",
+          "rate": "6.50%",
+          "details": "6.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on \u2013 60 Months +",
+          "rate": "7.00%",
+          "details": "7.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on (Prior to 01 March 2008) \u2013 R0.01 - R999.99",
+          "rate": "3.30%",
+          "details": "3.30%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on (Prior to 01 March 2008) \u2013 R50,000 - R99,999.99",
+          "rate": "3.80%",
+          "details": "3.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "TargetSave - Account Age add on (Prior to 01 March 2008) \u2013 R100,000 +",
+          "rate": "4.80%",
+          "details": "4.80%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Club Account \u2013 180 Days",
+          "rate": "6.25%",
+          "details": "6.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Club Account \u2013 370 Days",
+          "rate": "6.56%",
+          "details": "6.56%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Linked Rate Deposits \u2013 6 Months",
+          "rate": "6.75%",
+          "details": "6.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Linked Rate Deposits \u2013 12 Months",
+          "rate": "6.95%",
+          "details": "6.95%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Linked Rate Deposits \u2013 18 Months",
+          "rate": "7.05%",
+          "details": "7.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Linked Rate Deposits \u2013 24 Months",
+          "rate": "7.35%",
+          "details": "7.35%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Linked Rate Deposits \u2013 36 Months",
+          "rate": "7.75%",
+          "details": "7.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Prime Linked Account \u2013 R0.01 - R20,000.00",
+          "rate": "0.10%",
+          "details": "0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Prime Linked Account \u2013 R20,000.01 +",
+          "rate": "6.15%",
+          "details": "6.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Investment Advantage \u2013 R0.01 - R999.99",
+          "rate": "3.70%",
+          "details": "3.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Investment Advantage \u2013 R1,000 - R19,999.99",
+          "rate": "3.70%",
+          "details": "3.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Investment Advantage \u2013 R20,000 - R99,999.99",
+          "rate": "3.70%",
+          "details": "3.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Investment Advantage \u2013 R100,000 - R499,999.99",
+          "rate": "3.70%",
+          "details": "3.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Investment Advantage \u2013 R500,000 +",
+          "rate": "3.70%",
+          "details": "3.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Money Builder \u2013 R0.01 +",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Active Save \u2013 R0.01 +",
+          "rate": "0.15%",
+          "details": "0.15%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Youth Save \u2013 R0.01 +",
+          "rate": "0.05%",
+          "details": "0.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Easy Save \u2013 R0.01 +",
+          "rate": "0.05%",
+          "details": "0.05%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R0.01 - R999.99",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R1,000 - R14,999.99",
+          "rate": "3.75%",
+          "details": "3.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R15,000 - R74,999.99",
+          "rate": "5.45%",
+          "details": "5.45%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R75,000 - R999,999.99",
+          "rate": "5.55%",
+          "details": "5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R1,000,000 - R9,999,999.99",
+          "rate": "5.55%",
+          "details": "5.55%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R10,000,000 - R24,999,999.99",
+          "rate": "5.65%",
+          "details": "5.65%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R25,000,000 - R49,999,999.99",
+          "rate": "5.70%",
+          "details": "5.70%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R50,000,000 - R99,999,999.99",
+          "rate": "5.85%",
+          "details": "5.85%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Senior Save \u2013 R100,000,000 +",
+          "rate": "6.00%",
+          "details": "6.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R0.01 - R99.99",
+          "rate": "0.10%",
+          "details": "0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R100 - R999.99",
+          "rate": "3.25%",
+          "details": "3.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R1,000 - R4,999.99",
+          "rate": "3.25%",
+          "details": "3.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R5,000 - R14,999.99",
+          "rate": "3.25%",
+          "details": "3.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R15,000 - R24,999.99",
+          "rate": "3.25%",
+          "details": "3.25%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R25,000 - R49,999.99",
+          "rate": "3.75%",
+          "details": "3.75%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Savings Call Account \u2013 R50,000 +",
+          "rate": "4.20%",
+          "details": "4.20%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "32 Day Notice \u2013 R0.01 - R49,999.99",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "32 Day Notice \u2013 R50,000 - R99,999.99",
+          "rate": "5.60%",
+          "details": "5.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "32 Day Notice \u2013 R100,000 +",
+          "rate": "6.10%",
+          "details": "6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "70/30 Account \u2013 R0.01 - R49,999.99",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "70/30 Account \u2013 R50,000 - R99,999.99",
+          "rate": "6.60%",
+          "details": "6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "70/30 Account \u2013 R100,000 +",
+          "rate": "7.10%",
+          "details": "7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "70/30 Account \u2013 R0.01 - R19,999.99",
+          "rate": "0.10%",
+          "details": "0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "70/30 Account \u2013 R20,000 - R49,999.99",
+          "rate": "5.50%",
+          "details": "5.50%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "70/30 Account \u2013 R50,000 +",
+          "rate": "6.10%",
+          "details": "6.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "90/10 Account \u2013 R0.01 - R49,999.99",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "90/10 Account \u2013 R50,000 - R99,999.99",
+          "rate": "6.60%",
+          "details": "6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "90/10 Account \u2013 R100,000 +",
+          "rate": "7.10%",
+          "details": "7.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "90/10 Account \u2013 R0.01 - R99,999.99",
+          "rate": "0.10%",
+          "details": "0.10%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "90/10 Account \u2013 R100,000 +",
+          "rate": "6.02%",
+          "details": "6.02%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Private Banking Money Market Account \u2013 R0.01 - R49,999.99",
+          "rate": "0.00%",
+          "details": "0.00%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Private Banking Money Market Account \u2013 R50,000 - R99,999.99",
+          "rate": "6.60%",
+          "details": "6.60%"
+        },
+        {
+          "type": "Rates & Fees",
+          "product": "Private Banking Money Market Account \u2013 R100,000 +",
+          "rate": "7.10%",
+          "details": "7.10%"
+        }
+      ],
+      "source": [
+        "https://www.absa.co.za/rates-and-fees/",
+        "https://www.absa.co.za/personal/save-invest/products/fixed-deposit/"
+      ],
+      "blocked": false
+    },
+    {
+      "bank": "Standard Bank",
+      "rates": [
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 33 days to under 3 months",
+          "rate": "6,91%",
+          "details": "Balances R 10 000 to R 99 999: 6,91% | 6,91% | Balances below R 10 000: 6,51% | 6,61%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 3 months to under 6 months",
+          "rate": "7,09%",
+          "details": "Balances R 10 000 to R 99 999: 7,09% | 7,15% | Balances below R 10 000: 6,69% | 6,85%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 6 months to under 12 month",
+          "rate": "7,46%",
+          "details": "Balances R 10 000 to R 99 999: 7,46% | 7,55% | Balances below R 10 000: 7,06% | 7,25%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 12 months to under 18 months",
+          "rate": "7,85%",
+          "details": "Balances R 10 000 to R 99 999: 7,85% | 8,15% | Balances below R 10 000: 7,45% | 7,85%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 18 months to under 24 months",
+          "rate": "8,11%",
+          "details": "Balances R 10 000 to R 99 999: 8,11% | 8,60% | Balances below R 10 000: 7,71% | 8,30%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 24 months to under 36 months",
+          "rate": "8,07%",
+          "details": "Balances R 10 000 to R 99 999: 8,07% | 8,75% | Balances below R 10 000: 7,67% | 8,45%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 36 months to under 48 months",
+          "rate": "8,14%",
+          "details": "Balances R 10 000 to R 99 999: 8,14% | 9,20% | Balances below R 10 000: 7,74% | 8,90%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 48 months to 60 months",
+          "rate": "8,43%",
+          "details": "Balances R 10 000 to R 99 999: 8,43% | 10,00% | Balances below R 10 000: 8,03% | 9,70%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 60 months",
+          "rate": "8,76%",
+          "details": "Balances R 10 000 to R 99 999: 8,76% | 10,95% | Balances below R 10 000: 8,36% | 10,65%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 33 days to under 3 months",
+          "rate": "7,41%",
+          "details": "Balances R 10 000 to R 99 999: 7,41% | 7,41% | Balances below R 10 000: 7,01% | 7,11%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 3 months to under 6 months",
+          "rate": "7,59%",
+          "details": "Balances R 10 000 to R 99 999: 7,59% | 7,65% | Balances below R 10 000: 7,19% | 7,35%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 6 months to under 12 month",
+          "rate": "7,96%",
+          "details": "Balances R 10 000 to R 99 999: 7,96% | 8,05% | Balances below R 10 000: 7,56% | 7,75%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 12 months to under 18 months",
+          "rate": "8,35%",
+          "details": "Balances R 10 000 to R 99 999: 8,35% | 8,65% | Balances below R 10 000: 7,95% | 8,35%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 18 months to under 24 months",
+          "rate": "8,61%",
+          "details": "Balances R 10 000 to R 99 999: 8,61% | 9,10% | Balances below R 10 000: 8,21% | 8,80%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 24 months to under 36 months",
+          "rate": "8,57%",
+          "details": "Balances R 10 000 to R 99 999: 8,57% | 9,25% | Balances below R 10 000: 8,17% | 8,95%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 36 months to under 48 months",
+          "rate": "8,64%",
+          "details": "Balances R 10 000 to R 99 999: 8,64% | 9,70% | Balances below R 10 000: 8,24% | 9,40%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 48 months to 60 months",
+          "rate": "8,93%",
+          "details": "Balances R 10 000 to R 99 999: 8,93% | 10,50% | Balances below R 10 000: 8,53% | 10,20%"
+        },
+        {
+          "type": "Fixed Deposit",
+          "product": "Your request was submitted. \u2013 60 months",
+          "rate": "9,26%",
+          "details": "Balances R 10 000 to R 99 999: 9,26% | 11,45% | Balances below R 10 000: 8,86% | 11,15%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 33 days to under 3 months",
+          "rate": "6,91%",
+          "details": "Balances R 10 000 to R 99 999: 6,91% | 6,91% | Balances below R 10 000: 6,51% | 6,61%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 3 months to under 6 months",
+          "rate": "7,09%",
+          "details": "Balances R 10 000 to R 99 999: 7,09% | 7,15% | Balances below R 10 000: 6,69% | 6,85%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 6 months to under 12 month",
+          "rate": "7,46%",
+          "details": "Balances R 10 000 to R 99 999: 7,46% | 7,55% | Balances below R 10 000: 7,06% | 7,25%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 12 months to under 18 months",
+          "rate": "7,85%",
+          "details": "Balances R 10 000 to R 99 999: 7,85% | 8,15% | Balances below R 10 000: 7,45% | 7,85%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 18 months to under 24 months",
+          "rate": "8,11%",
+          "details": "Balances R 10 000 to R 99 999: 8,11% | 8,60% | Balances below R 10 000: 7,71% | 8,30%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 24 months to under 36 months",
+          "rate": "8,07%",
+          "details": "Balances R 10 000 to R 99 999: 8,07% | 8,75% | Balances below R 10 000: 7,67% | 8,45%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 36 months to under 48 months",
+          "rate": "8,14%",
+          "details": "Balances R 10 000 to R 99 999: 8,14% | 9,20% | Balances below R 10 000: 7,74% | 8,90%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 48 months to 60 months",
+          "rate": "8,43%",
+          "details": "Balances R 10 000 to R 99 999: 8,43% | 10,00% | Balances below R 10 000: 8,03% | 9,70%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 60 months",
+          "rate": "8,76%",
+          "details": "Balances R 10 000 to R 99 999: 8,76% | 10,95% | Balances below R 10 000: 8,36% | 10,65%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 33 days to under 3 months",
+          "rate": "7,41%",
+          "details": "Balances R 10 000 to R 99 999: 7,41% | 7,41% | Balances below R 10 000: 7,01% | 7,11%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 3 months to under 6 months",
+          "rate": "7,59%",
+          "details": "Balances R 10 000 to R 99 999: 7,59% | 7,65% | Balances below R 10 000: 7,19% | 7,35%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 6 months to under 12 month",
+          "rate": "7,96%",
+          "details": "Balances R 10 000 to R 99 999: 7,96% | 8,05% | Balances below R 10 000: 7,56% | 7,75%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 12 months to under 18 months",
+          "rate": "8,35%",
+          "details": "Balances R 10 000 to R 99 999: 8,35% | 8,65% | Balances below R 10 000: 7,95% | 8,35%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 18 months to under 24 months",
+          "rate": "8,61%",
+          "details": "Balances R 10 000 to R 99 999: 8,61% | 9,10% | Balances below R 10 000: 8,21% | 8,80%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 24 months to under 36 months",
+          "rate": "8,57%",
+          "details": "Balances R 10 000 to R 99 999: 8,57% | 9,25% | Balances below R 10 000: 8,17% | 8,95%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 36 months to under 48 months",
+          "rate": "8,64%",
+          "details": "Balances R 10 000 to R 99 999: 8,64% | 9,70% | Balances below R 10 000: 8,24% | 9,40%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 48 months to 60 months",
+          "rate": "8,93%",
+          "details": "Balances R 10 000 to R 99 999: 8,93% | 10,50% | Balances below R 10 000: 8,53% | 10,20%"
+        },
+        {
+          "type": "SaveUp Account",
+          "product": "No penalties \u2013 60 months",
+          "rate": "9,26%",
+          "details": "Balances R 10 000 to R 99 999: 9,26% | 11,45% | Balances below R 10 000: 8,86% | 11,15%"
+        }
+      ],
+      "source": [
+        "https://www.standardbank.co.za/southafrica/personal/products-and-services/grow-your-money/savings-and-investment/our-accounts/fixed-deposit-investment-account",
+        "https://www.standardbank.co.za/southafrica/personal/products-and-services/grow-your-money/savings-and-investment/our-accounts/saveup-savings-account"
+      ],
+      "blocked": false
+    },
+    {
+      "bank": "Investec",
+      "rates": [
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "60 month fixed deposits \u2013 Individuals under 55 years of age",
+          "rate": "8.04%",
+          "details": "Nominal: 8.04% | Period Effective: 9.86%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "60 month fixed deposits \u2013 Individuals over 55 years of age",
+          "rate": "8.19%",
+          "details": "Nominal: 8.19% | Period Effective: 10.08%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "24 month fixed deposits \u2013 Individuals under 55 years of age",
+          "rate": "7.49%",
+          "details": "Nominal: 7.49% | Period Effective: 8.05%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "24 month fixed deposits \u2013 Individuals over 55 years of age",
+          "rate": "7.64%",
+          "details": "Nominal: 7.64% | Period Effective: 8.23%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "12 month fixed deposits \u2013 Individuals under 55 years of age",
+          "rate": "7.50%",
+          "details": "Nominal: 7.50% | Period Effective: 7.76%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "12 month fixed deposits \u2013 Individuals over 55 years of age",
+          "rate": "7.60%",
+          "details": "Nominal: 7.60% | Period Effective: 7.87%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "6 month fixed deposits \u2013 Individuals under 55 years of age",
+          "rate": "6.80%",
+          "details": "Nominal: 6.80% | Period Effective: 6.90%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "6 month fixed deposits \u2013 Individuals over 55 years of age",
+          "rate": "6.95%",
+          "details": "Nominal: 6.95% | Period Effective: 7.05%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "7.17%",
+          "details": "Nominal: 7.17% | Period Effective: 7.41%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "7.25%",
+          "details": "Nominal: 7.25% | Period Effective: 7.50%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "7.25%",
+          "details": "Nominal: 7.25% | Period Effective: 7.50%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "6.53%",
+          "details": "Nominal: 6.53% | Period Effective: 6.67%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "6.73%",
+          "details": "Nominal: 6.73% | Period Effective: 6.88%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "6.98%",
+          "details": "Nominal: 6.98% | Period Effective: 7.14%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "6.25%",
+          "details": "Nominal: 6.25% | Period Effective: 6.33%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "6.45%",
+          "details": "Nominal: 6.45% | Period Effective: 6.54%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "6.70%",
+          "details": "Nominal: 6.70% | Period Effective: 6.79%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "6.13%",
+          "details": "Nominal: 6.13% | Period Effective: 6.19%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "6.33%",
+          "details": "Nominal: 6.33% | Period Effective: 6.40%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "6.58%",
+          "details": "Nominal: 6.58% | Period Effective: 6.65%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "6.09%",
+          "details": "Nominal: 6.09% | Period Effective: 6.14%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "6.29%",
+          "details": "Nominal: 6.29% | Period Effective: 6.34%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "6.54%",
+          "details": "Nominal: 6.54% | Period Effective: 6.59%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "6.06%",
+          "details": "Nominal: 6.06% | Period Effective: 6.09%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "6.26%",
+          "details": "Nominal: 6.26% | Period Effective: 6.29%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "6.51%",
+          "details": "Nominal: 6.51% | Period Effective: 6.55%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 250 000",
+          "rate": "6.08%",
+          "details": "Nominal: 6.08% | Period Effective: 6.08%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 250 000 - R 1 000 000",
+          "rate": "6.23%",
+          "details": "Nominal: 6.23% | Period Effective: 6.23%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 1 000 000",
+          "rate": "6.48%",
+          "details": "Nominal: 6.48% | Period Effective: 6.48%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 1 000 000",
+          "rate": "7.78%",
+          "details": "Nominal: 7.78% | Period Effective: 8.06%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 1 000 000 - R 10 000 000",
+          "rate": "7.78%",
+          "details": "Nominal: 7.78% | Period Effective: 8.06%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 10 000 000 - R 25 000 000",
+          "rate": "7.78%",
+          "details": "Nominal: 7.78% | Period Effective: 8.06%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 25 000 000",
+          "rate": "7.78%",
+          "details": "Nominal: 7.78% | Period Effective: 8.06%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 1 000 000",
+          "rate": "7.32%",
+          "details": "Nominal: 7.32% | Period Effective: 7.50%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 1 000 000 - R 10 000 000",
+          "rate": "7.37%",
+          "details": "Nominal: 7.37% | Period Effective: 7.55%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 10 000 000 - R 25 000 000",
+          "rate": "7.42%",
+          "details": "Nominal: 7.42% | Period Effective: 7.61%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 25 000 000",
+          "rate": "7.52%",
+          "details": "Nominal: 7.52% | Period Effective: 7.71%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 1 000 000",
+          "rate": "7.06%",
+          "details": "Nominal: 7.06% | Period Effective: 7.16%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 1 000 000 - R 10 000 000",
+          "rate": "7.11%",
+          "details": "Nominal: 7.11% | Period Effective: 7.22%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 10 000 000 - R 25 000 000",
+          "rate": "7.16%",
+          "details": "Nominal: 7.16% | Period Effective: 7.27%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 25 000 000",
+          "rate": "7.26%",
+          "details": "Nominal: 7.26% | Period Effective: 7.37%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 100 000 - R 1 000 000",
+          "rate": "6.80%",
+          "details": "Nominal: 6.80% | Period Effective: 6.84%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 1 000 000 - R 10 000 000",
+          "rate": "6.85%",
+          "details": "Nominal: 6.85% | Period Effective: 6.89%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 R 10 000 000 - R 25 000 000",
+          "rate": "6.90%",
+          "details": "Nominal: 6.90% | Period Effective: 6.94%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Deposit Nominal Value \u2013 Over R 25 000 000",
+          "rate": "7.00%",
+          "details": "Nominal: 7.00% | Period Effective: 7.04%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Tax Free \u2013 12 months",
+          "rate": "7.45%",
+          "details": "Nominal: 7.45% | Period Effective: 7.71%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Investec 7-Day Notice Deposit \u2013 R1 000 and above",
+          "rate": "6.75%",
+          "details": "Nominal: 6.75% | Annual Effective: 6.96%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Top5 Optimiser \u2013 45-day notice",
+          "rate": "6.87%",
+          "details": "Nominal: 6.87% | Annual Effective: 7.09%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Top5 Optimiser \u2013 90-day notice",
+          "rate": "7.02%",
+          "details": "Nominal: 7.02% | Annual Effective: 7.25%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Private Select Fund \u2013 40-day notice",
+          "rate": "6.90%",
+          "details": "Nominal: 6.90% | Annual Effective: 7.12%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Available on demand (%) \u2013 0",
+          "rate": "6.90%",
+          "details": "15: 6.90% | 32: 7.25% | 45: 7.28% | 60: 7.30% | 90: 7.40% | 120: 7.45%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Available on demand (%) \u2013 10",
+          "rate": "6.82%",
+          "details": "15: 6.82% | 32: 7.20% | 45: 7.23% | 60: 7.25% | 90: 7.34% | 120: 7.38%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Available on demand (%) \u2013 20",
+          "rate": "6.79%",
+          "details": "15: 6.79% | 32: 7.15% | 45: 7.17% | 60: 7.19% | 90: 7.27% | 120: 7.32%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Available on demand (%) \u2013 30",
+          "rate": "6.76%",
+          "details": "15: 6.76% | 32: 7.10% | 45: 7.12% | 60: 7.14% | 90: 7.21% | 120: 7.24%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Available on demand (%) \u2013 40",
+          "rate": "6.74%",
+          "details": "15: 6.74% | 32: 7.05% | 45: 7.07% | 60: 7.08% | 90: 7.15% | 120: 7.17%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Available on demand (%) \u2013 50",
+          "rate": "6.71%",
+          "details": "15: 6.71% | 32: 7.00% | 45: 7.02% | 60: 7.03% | 90: 7.08% | 120: 7.10%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "PrimeSaver \u2013 Up to R 25 000 000",
+          "rate": "6.55%",
+          "details": "Nominal: 6.55% | Annual Effective: 6.75%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "PrimeSaver \u2013 R25 000 000 and above",
+          "rate": "6.45%",
+          "details": "Nominal: 6.45% | Annual Effective: 6.64%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "MoneyFund Tracker \u2013 >R100 000",
+          "rate": "6.32%",
+          "details": "Nominal: 6.32% | Annual Effective: 6.51%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Call Deposits \u2013 R100 000 - R250 000",
+          "rate": "3.65%",
+          "details": "Nominal: 3.65% | Annual Effective: 3.71%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Call Deposits \u2013 R250 000 - R500 000",
+          "rate": "3.90%",
+          "details": "Nominal: 3.90% | Annual Effective: 3.97%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Call Deposits \u2013 R500 000 - R1 000 000",
+          "rate": "4.40%",
+          "details": "Nominal: 4.40% | Annual Effective: 4.49%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Call Deposits \u2013 R1 000 000 - R5 000 000",
+          "rate": "5.15%",
+          "details": "Nominal: 5.15% | Annual Effective: 5.27%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Call Deposits \u2013 R5 000 000 - R10 000 000",
+          "rate": "5.90%",
+          "details": "Nominal: 5.90% | Annual Effective: 6.06%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Call Deposits \u2013 R10 000 000 and above",
+          "rate": "6.15%",
+          "details": "Nominal: 6.15% | Annual Effective: 6.33%"
+        },
+        {
+          "type": "Savings & Fixed Deposits",
+          "product": "Foreign Currency Call Account \u2013 Minimum 1 000 Base Currency",
+          "rate": "3.35%",
+          "details": "UK Pounds Nominal Rate: 3.35% | US Dollars Nominal Rate: 1.83% | EUR Nominal Rate: 2.15%"
+        }
+      ],
+      "source": [
+        "https://www.investec.com/en_za/savings-accounts/daily-rates.html"
+      ],
+      "blocked": false
+    },
+    {
+      "bank": "African Bank",
+      "rates": [
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 1 Week",
+          "rate": "6.60%",
+          "details": "NACM Rate: 6.60% | NACM: 6.60% | Yield: 6.80%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 2 Weeks",
+          "rate": "6.70%",
+          "details": "NACM Rate: 6.70% | NACM: 6.70% | Yield: 6.91%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 3 Weeks",
+          "rate": "6.80%",
+          "details": "NACM Rate: 6.80% | NACM: 6.80% | Yield: 7.02%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 1 Month",
+          "rate": "6.95%",
+          "details": "NACM Rate: 6.95% | NACM: 6.95% | Yield: 7.18%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 2 Months",
+          "rate": "6.98%",
+          "details": "NACM Rate: 6.98% | NACM: 7.00% | Yield: 7.21%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 3 Months",
+          "rate": "6.98%",
+          "details": "NACM Rate: 6.98% | NACM: 7.03% | Yield: 7.21%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 4 Months",
+          "rate": "6.99%",
+          "details": "NACM Rate: 6.99% | NACM: 7.05% | Yield: 7.22%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 5 Months",
+          "rate": "7.07%",
+          "details": "NACM Rate: 7.07% | NACM: 7.15% | Yield: 7.30%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 6 Months",
+          "rate": "7.14%",
+          "details": "NACM Rate: 7.14% | NACM: 7.25% | Yield: 7.38%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 7 Months",
+          "rate": "7.27%",
+          "details": "NACM Rate: 7.27% | NACM: 7.40% | Yield: 7.52%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 8 Months",
+          "rate": "7.34%",
+          "details": "NACM Rate: 7.34% | NACM: 7.50% | Yield: 7.59%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 9 Months",
+          "rate": "7.41%",
+          "details": "NACM Rate: 7.41% | NACM: 7.60% | Yield: 7.67%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 10 Months",
+          "rate": "7.49%",
+          "details": "NACM Rate: 7.49% | NACM: 7.70% | Yield: 7.75%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 11 Months",
+          "rate": "7.56%",
+          "details": "NACM Rate: 7.56% | NACM: 7.80% | Yield: 7.83%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 12 Months",
+          "rate": "7.67%",
+          "details": "NACM Rate: 7.67% | NACM: 7.95% | Yield: 7.95%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 18 Months",
+          "rate": "7.87%",
+          "details": "NACM Rate: 7.87% | NACM: 8.32% | Yield: 8.16%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 24 Months",
+          "rate": "8.02%",
+          "details": "NACM Rate: 8.02% | NACM: 8.67% | Yield: 8.32%"
+        },
+        {
+          "type": "Fixed Deposits",
+          "product": "Fixed Deposit \u2013 36 Months",
+          "rate": "8.26%",
+          "details": "NACM Rate: 8.26% | NACM: 9.34% | Yield: 8.58%"
+        },
+        {
+          "type": "Access Accumulator",
+          "product": "All Rates \u2013 R0 - 24999.99",
+          "rate": "5.02%",
+          "details": "Access Accumulator 24 Months: 5.02%"
+        },
+        {
+          "type": "Access Accumulator",
+          "product": "All Rates \u2013 R25000.00 - R99999.99",
+          "rate": "5.26%",
+          "details": "Access Accumulator 24 Months: 5.26%"
+        },
+        {
+          "type": "Access Accumulator",
+          "product": "All Rates \u2013 R100000.00 - R249999.99",
+          "rate": "5.49%",
+          "details": "Access Accumulator 24 Months: 5.49%"
+        },
+        {
+          "type": "Access Accumulator",
+          "product": "All Rates \u2013 > R250000.00",
+          "rate": "5.72%",
+          "details": "Access Accumulator 24 Months: 5.72%"
+        }
+      ],
+      "source": [
+        "https://www.africanbank.co.za/en/home/invest/fixed-deposits/",
+        "https://www.africanbank.co.za/en/home/product-access-accumulator/"
+      ],
+      "blocked": false
+    },
+    {
+      "bank": "FNB (First National Bank)",
+      "rates": [],
+      "source": [
+        "https://www.fnb.co.za/rates/savings-and-investments/index.html",
+        "https://www.fnb.co.za/rates/LendingRates.html"
+      ],
+      "blocked": true,
+      "blocked_reason": "Radware Bot Manager CAPTCHA \u2013 requires browser with JS execution",
+      "manual_url": "https://www.fnb.co.za/rates/savings-and-investments/index.html"
+    },
+    {
+      "bank": "Capitec Bank",
+      "rates": [],
+      "source": [
+        "https://www.capitecbank.co.za/personal/save/save-fees-and-rates/",
+        "https://www.capitecbank.co.za/personal/credit/rates-and-fees/"
+      ],
+      "blocked": true,
+      "blocked_reason": "Cloudflare JS challenge \u2013 requires browser with JS execution",
+      "manual_url": "https://www.capitecbank.co.za/personal/save/save-fees-and-rates/"
+    }
+  ]
+}
