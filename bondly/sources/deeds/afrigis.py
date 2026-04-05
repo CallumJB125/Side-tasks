@@ -1,47 +1,47 @@
 """
 AfriGIS Property Search & Ownership API adapter.
-Docs: https://developers.afrigis.co.za/oas3/property-search-api/
 Auth: OAuth2 client_credentials
+Docs: https://developers.afrigis.co.za/oas3/property-search-api/
 
-To get credentials:
-    Contact AfriGIS at https://developers.afrigis.co.za/
-    Request a trial account — free trial available.
-    You'll receive a client_id and client_secret.
-
-Base URLs:
-    Auth:     https://identity.afrigis.co.za/connect/token
-    Property: https://xdv.afrigis.co.za/rest/api/v3/property/
-    Deeds:    https://xdv.afrigis.co.za/rest/api/v3/deeds/
+Field names come from bondly/sources/deeds/field_maps/afrigis.json.
+Every mapping is marked UNVERIFIED until tested against real credentials.
+Run `python -m bondly.sources.deeds.verify afrigis <erf_key>` after
+obtaining credentials to see raw responses and confirm/correct the map.
 """
 from __future__ import annotations
+
 from datetime import datetime, timezone
 
 import requests
 
 from bondly.models.property import (
-    BondRecord, DeedsData, OwnerRecord, PropertyInfo, TitleDeed
+    BondRecord, DeedsData, OwnerRecord, PropertyInfo, TitleDeed,
 )
 from bondly.sources.deeds.base import DeedsClient
+from bondly.sources.deeds.mapper import DeedsMapper
+
+_AUTH_URL = "https://identity.afrigis.co.za/connect/token"
+_BASE     = "https://xdv.afrigis.co.za/rest/api/v3"
 
 
 class AfriGISClient(DeedsClient):
 
-    _TOKEN_URL = "https://identity.afrigis.co.za/connect/token"
-    _BASE = "https://xdv.afrigis.co.za/rest/api/v3"
-
     def __init__(self, client_id: str, client_secret: str):
-        self._client_id = client_id
+        self._client_id     = client_id
         self._client_secret = client_secret
         self._token: str | None = None
+        self._m = DeedsMapper("afrigis")
+
+    # ── Auth ─────────────────────────────────────────────────────────────────
 
     def _get_token(self) -> str:
         resp = requests.post(
-            self._TOKEN_URL,
+            _AUTH_URL,
             data={
-                "grant_type": "client_credentials",
-                "client_id": self._client_id,
+                "grant_type":    "client_credentials",
+                "client_id":     self._client_id,
                 "client_secret": self._client_secret,
-                "scope": "afrigis.agi",
+                "scope":         "afrigis.agi",
             },
             timeout=15,
         )
@@ -55,125 +55,106 @@ class AfriGISClient(DeedsClient):
         return {"Authorization": f"Bearer {self._token}", "Accept": "application/json"}
 
     def _get(self, path: str, params: dict | None = None) -> dict:
-        resp = requests.get(
-            f"{self._BASE}{path}",
-            headers=self._headers(),
-            params=params,
-            timeout=20,
-        )
+        url  = f"{_BASE}{path}"
+        resp = requests.get(url, headers=self._headers(), params=params, timeout=20)
         if resp.status_code == 401:
-            # Token expired — refresh once
             self._get_token()
-            resp = requests.get(
-                f"{self._BASE}{path}",
-                headers=self._headers(),
-                params=params,
-                timeout=20,
-            )
+            resp = requests.get(url, headers=self._headers(), params=params, timeout=20)
         resp.raise_for_status()
         return resp.json()
 
-    # ── Search methods ────────────────────────────────────────────���─────────
+    # ── Helpers ───────────────────────────────────────────────────────────────
+
+    def _to_result(self, raw: dict) -> dict:
+        m = self._m
+        return {
+            "erf_key":    m.get(raw, "search", "erf_key"),
+            "address":    m.get(raw, "search", "address"),
+            "township":   m.get(raw, "search", "township"),
+            "erf_number": m.get(raw, "search", "erf_number"),
+            "lpi_code":   m.get(raw, "search", "lpi_code"),
+        }
+
+    # ── Search ────────────────────────────────────────────────────────────────
 
     def search_by_address(self, address: str) -> list[dict]:
         data = self._get("/property/search", {"query": address, "limit": 10})
-        return [
-            {
-                "erf_key": r.get("lpiCode") or r.get("id"),
-                "address": r.get("addressDetails", {}).get("fullAddress"),
-                "township": r.get("township"),
-                "erf_number": r.get("erfNumber"),
-                "lpi_code": r.get("lpiCode"),
-            }
-            for r in data.get("results", [])
-        ]
+        return [self._to_result(r) for r in data.get(self._m.results_key("search"), [])]
 
     def search_by_erf(self, erf_number: str, township: str, deeds_office: str = "") -> list[dict]:
         params = {"erfNumber": erf_number, "township": township}
         if deeds_office:
             params["deedsOffice"] = deeds_office
         data = self._get("/property/erf", params)
-        return [
-            {
-                "erf_key": r.get("lpiCode"),
-                "address": r.get("addressDetails", {}).get("fullAddress"),
-                "township": r.get("township"),
-                "erf_number": r.get("erfNumber"),
-                "lpi_code": r.get("lpiCode"),
-            }
-            for r in data.get("results", [])
-        ]
+        return [self._to_result(r) for r in data.get(self._m.results_key("search_by_erf"), [])]
 
     def search_by_owner(self, id_number: str) -> list[dict]:
         data = self._get("/deeds/owner", {"idNumber": id_number})
-        return [
-            {
-                "erf_key": r.get("lpiCode"),
-                "address": r.get("addressDetails", {}).get("fullAddress"),
-                "township": r.get("township"),
-                "erf_number": r.get("erfNumber"),
-                "lpi_code": r.get("lpiCode"),
-            }
-            for r in data.get("results", [])
-        ]
+        return [self._to_result(r) for r in data.get(self._m.results_key("search_by_owner"), [])]
 
-    # ── Full record ─────────────────────────────────────────────────────────
+    # ── Full record ───────────────────────────────────────────────────────────
 
     def get_full_record(self, erf_key: str) -> DeedsData:
         prop  = self._get(f"/property/{erf_key}")
-        deeds = self._get(f"/deeds/{erf_key}")
-        owner = self._get(f"/deeds/{erf_key}/ownership")
+        deed  = self._get(f"/deeds/{erf_key}")
+        own   = self._get(f"/deeds/{erf_key}/ownership")
         bonds = self._get(f"/deeds/{erf_key}/bonds")
+
+        m = self._m
+
+        current_raw = own.get(m.section_key("ownership", "current_owner_key"), own)
+        history_raw = own.get(m.section_key("ownership", "history_key"), [])
+        bonds_raw   = bonds.get(m.section_key("bonds", "bonds_key"), [])
 
         return DeedsData(
             property=PropertyInfo(
-                erf_number=prop.get("erfNumber"),
-                portion=prop.get("portion"),
-                township=prop.get("township"),
-                registration_division=prop.get("registrationDivision"),
-                province=prop.get("province"),
-                street_address=prop.get("addressDetails", {}).get("fullAddress"),
-                suburb=prop.get("addressDetails", {}).get("suburb"),
-                city=prop.get("addressDetails", {}).get("city"),
-                land_size_sqm=prop.get("extent"),
-                property_type=prop.get("propertyType"),
-                sectional_scheme_name=prop.get("schemeName"),
-                sectional_unit_number=prop.get("unitNumber"),
-                lpi_code=prop.get("lpiCode"),
+                erf_number=            m.get(prop, "property_detail", "erf_number"),
+                portion=               m.get(prop, "property_detail", "portion"),
+                township=              m.get(prop, "property_detail", "township"),
+                registration_division= m.get(prop, "property_detail", "registration_division"),
+                province=              m.get(prop, "property_detail", "province"),
+                street_address=        m.get(prop, "property_detail", "street_address"),
+                suburb=                m.get(prop, "property_detail", "suburb"),
+                city=                  m.get(prop, "property_detail", "city"),
+                land_size_sqm=         m.get(prop, "property_detail", "land_size_sqm"),
+                property_type=         m.get(prop, "property_detail", "property_type"),
+                sectional_scheme_name= m.get(prop, "property_detail", "sectional_scheme_name"),
+                sectional_unit_number= m.get(prop, "property_detail", "sectional_unit_number"),
+                lpi_code=              m.get(prop, "property_detail", "lpi_code"),
             ),
             title_deed=TitleDeed(
-                deed_number=deeds.get("titleDeedNumber"),
-                registration_date=deeds.get("registrationDate"),
-                deeds_office=deeds.get("deedsOffice"),
+                deed_number=       m.get(deed, "title_deed", "deed_number"),
+                registration_date= m.get(deed, "title_deed", "registration_date"),
+                deeds_office=      m.get(deed, "title_deed", "deeds_office"),
             ),
             current_owner=OwnerRecord(
-                owner_name=owner.get("currentOwner", {}).get("name"),
-                owner_type=owner.get("currentOwner", {}).get("type"),
-                id_or_reg_number=owner.get("currentOwner", {}).get("idNumber"),
-                transfer_date=owner.get("currentOwner", {}).get("transferDate"),
-                purchase_price=owner.get("currentOwner", {}).get("purchasePrice"),
+                owner_name=       m.get(current_raw, "ownership", "owner_name"),
+                owner_type=       m.get(current_raw, "ownership", "owner_type"),
+                id_or_reg_number= m.get(current_raw, "ownership", "id_or_reg_number"),
+                transfer_date=    m.get(current_raw, "ownership", "transfer_date"),
+                purchase_price=   m.get(current_raw, "ownership", "purchase_price"),
             ),
             ownership_history=[
                 OwnerRecord(
-                    owner_name=h.get("name"),
-                    owner_type=h.get("type"),
-                    transfer_date=h.get("transferDate"),
-                    purchase_price=h.get("purchasePrice"),
+                    owner_name=     m.get(h, "ownership", "owner_name"),
+                    owner_type=     m.get(h, "ownership", "owner_type"),
+                    transfer_date=  m.get(h, "ownership", "transfer_date"),
+                    purchase_price= m.get(h, "ownership", "purchase_price"),
                 )
-                for h in owner.get("history", [])
+                for h in history_raw
             ],
             bonds=[
                 BondRecord(
-                    bond_number=b.get("bondNumber"),
-                    registered_amount=b.get("amount"),
-                    bond_holder_bank=b.get("bondHolder"),
-                    registration_date=b.get("registrationDate"),
-                    cancellation_date=b.get("cancellationDate"),
-                    status="Cancelled" if b.get("cancellationDate") else "Active",
+                    bond_number=       m.get(b, "bonds", "bond_number"),
+                    registered_amount= m.get(b, "bonds", "registered_amount"),
+                    bond_holder_bank=  m.get(b, "bonds", "bond_holder_bank"),
+                    registration_date= m.get(b, "bonds", "registration_date"),
+                    cancellation_date= m.get(b, "bonds", "cancellation_date"),
+                    status="Cancelled" if m.get(b, "bonds", "cancellation_date") else "Active",
                 )
-                for b in bonds.get("bonds", [])
+                for b in bonds_raw
             ],
-            interdicts=deeds.get("interdicts", []),
-            servitudes=deeds.get("servitudes", []),
+            interdicts= deed.get(m.section_key("title_deed", "interdicts"), []),
+            servitudes=  deed.get(m.section_key("title_deed", "servitudes"), []),
             retrieved_at=datetime.now(timezone.utc).isoformat(),
         )
