@@ -15,4 +15,6 @@ apscheduler>=3.10.0
 python-dotenv>=1.0.0
 
 # Bondly mortgage API
-passlib>=1.7.4    # password hashing (bcrypt)
+passlib>=1.7.4        # password hashing
+pymupdf>=1.23.0       # PDF parsing (no cryptography dependency)
+python-multipart>=0.0.9  # file uploads
