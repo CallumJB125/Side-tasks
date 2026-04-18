@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from bondly.database import init_db
-from bondly.routers import auth, subscribe, webhook, property as property_router, inspect
+from bondly.routers import auth, subscribe, webhook, property as property_router, inspect, profile
 
 
 @asynccontextmanager
@@ -42,6 +42,7 @@ app.include_router(subscribe.router)
 app.include_router(webhook.router)
 app.include_router(property_router.router)
 app.include_router(inspect.router)
+app.include_router(profile.router)
 
 
 @app.get("/", tags=["info"])

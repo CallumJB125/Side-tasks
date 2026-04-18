@@ -46,5 +46,21 @@ async def init_db() -> None:
                 result_found INTEGER NOT NULL DEFAULT 0,
                 ts           TEXT    NOT NULL DEFAULT (datetime('now'))
             );
+
+            CREATE TABLE IF NOT EXISTS financial_profiles (
+                id               INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id          INTEGER NOT NULL REFERENCES users(id),
+                period           TEXT    NOT NULL,           -- "2024-01"
+                statement_period TEXT,
+                gross_income     REAL    NOT NULL DEFAULT 0,
+                net_income       REAL    NOT NULL DEFAULT 0,
+                total_expenses   REAL    NOT NULL DEFAULT 0,
+                net_cash_flow    REAL    NOT NULL DEFAULT 0,
+                expense_breakdown TEXT,                      -- JSON: {category: amount}
+                transactions     TEXT,                       -- JSON: [{date, desc, amount, category}]
+                bank_detected    TEXT,
+                parse_confidence REAL    DEFAULT 0,
+                created_at       TEXT    NOT NULL DEFAULT (datetime('now'))
+            );
         """)
         await db.commit()
